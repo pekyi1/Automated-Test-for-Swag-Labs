@@ -1,0 +1,55 @@
+{
+    "customerAuth": [
+        {
+            "userName": "Harry Potter"
+        },
+        {
+            "userName": "Hermoine Granger"
+        }
+    ],
+    "customerDeposit": [
+        {
+            "userName": "Harry Potter",
+            "amount": "500",
+            "expectedMessage": "Deposit Successful"
+        }
+    ],
+    "customerWithdrawal": [
+        {
+            "userName": "Harry Potter",
+            "depositAmount": "500",
+            "withdrawalAmount": "200",
+            "expectedMessage": "Transaction successful"
+        }
+    ],
+    "newCustomers": [
+        {
+            "firstName": "John",
+            "lastName": "Doe",
+            "postCode": "L1T 2R4"
+        },
+        {
+            "firstName": "Jane",
+            "lastName": "Smith",
+            "postCode": "E55555"
+        }
+    ],
+    "openAccounts": [
+        {
+            "customerName": "Harry Potter",
+            "currency": "Dollar"
+        },
+        {
+            "customerName": "Ron Weasly",
+            "currency": "Pound"
+        }
+    ],
+    "searchCustomers": [
+        {
+            "firstName": "Hermoine"
+        },
+        {
+            "firstName": "Neville"
+        }
+    ]
+}

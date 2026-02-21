@@ -13,7 +13,7 @@ on:
       - develop
 
 jobs:
-  ui-tests-xyz-bank:
+  ui-test-xyz-bank:
     runs-on: ubuntu-latest
     permissions:
       contents: write

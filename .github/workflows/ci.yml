@@ -15,6 +15,8 @@ on:
 jobs:
   ui-tests:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout
@@ -272,15 +274,22 @@ jobs:
           path: gh-pages
         continue-on-error: true
 
+      - name: Copy history to allure-results
+        if: always()
+        run: |
+          mkdir -p target/allure-results/history
+          if [ -d "gh-pages/history" ]; then cp -r gh-pages/history/* target/allure-results/history/ || true; fi
+
       - name: Build Allure Report
         if: always()
-        uses: simple-elf/allure-report-action@v1.9
-        with:
-          gh_pages: gh-pages
-          allure_results: target/allure-results
-          allure_report: allure-report
-          allure_history: allure-history
-          keep_reports: 20
+        run: mvn allure:report
+
+      - name: Prepare History for Next Run
+        if: always()
+        run: |
+          mkdir -p allure-report-with-history
+          cp -r target/site/allure-maven-plugin/* allure-report-with-history/
+          cp -r target/site/allure-maven-plugin/history allure-report-with-history/ || true
 
       - name: Publish Allure Report to GitHub Pages
         if: always()
@@ -288,4 +297,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: allure-history
+          publish_dir: allure-report-with-history

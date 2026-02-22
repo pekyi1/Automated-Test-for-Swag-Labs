@@ -28,6 +28,12 @@ public class CustomerAccountPage {
     @FindBy(css = "button[ng-click='home()']")
     private WebElement homeBtn;
 
+    @FindBy(css = "div[ng-hide='noAccount'] strong:nth-of-type(2)")
+    private WebElement balanceValue;
+
+    @FindBy(css = "span[ng-show='noAccount']:not(.ng-hide)")
+    private WebElement noAccountMessage;
+
     public CustomerAccountPage(WebDriver driver) {
         this.driver = driver;
         this.waitUtils = new WaitUtils(driver);
@@ -62,5 +68,16 @@ public class CustomerAccountPage {
     public LoginPage clickHomeBtn() {
         waitUtils.safeClick(homeBtn);
         return new LoginPage(driver);
+    }
+
+    public int getAccountBalance() {
+        waitUtils.waitForVisibility(balanceValue);
+        String balanceStr = balanceValue.getText();
+        return Integer.parseInt(balanceStr);
+    }
+
+    public String getNoAccountMessage() {
+        waitUtils.waitForVisibility(noAccountMessage);
+        return noAccountMessage.getText();
     }
 }

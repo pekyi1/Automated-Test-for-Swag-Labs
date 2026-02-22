@@ -44,7 +44,7 @@ public class CustomerTransactionsTest extends BaseTest {
 
                 // Wait for the backend to record the transaction
                 try {
-                        java.lang.Thread.sleep(1000);
+                        java.lang.Thread.sleep(2000);
                 } catch (InterruptedException ignored) {
                 }
 

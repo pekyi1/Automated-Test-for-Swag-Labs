@@ -394,3 +394,993 @@ INFO: TEST FINISHED: verifyCustomerLoginNavigation() -> Status: PASSED
 Feb 21, 2026 10:16:06 AM utils.AllureLogListener afterTestStop
 INFO: ---------------------------------------------------
 
+Feb 22, 2026 8:09:38 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 8:09:38 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testLoginButtonIsHiddenInitially()
+Feb 22, 2026 8:09:38 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testLoginButtonIsHiddenInitially()
+Feb 22, 2026 8:09:55 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testLoginButtonIsHiddenInitially() -> Status: PASSED
+Feb 22, 2026 8:09:55 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 11:07:05 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 11:07:05 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerNoAccountMessage(String) [1] Neville Longbottom
+Feb 22, 2026 11:07:05 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerNoAccountMessage(String) [1] Neville Longbottom
+Feb 22, 2026 11:07:33 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerNoAccountMessage(String) [1] Neville Longbottom -> Status: BROKEN
+Feb 22, 2026 11:07:33 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 11:26:11 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 11:26:11 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerNoAccountMessage(String) [1] Neville Longbottom
+Feb 22, 2026 11:26:11 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerNoAccountMessage(String) [1] Neville Longbottom
+Feb 22, 2026 11:26:45 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerNoAccountMessage(String) [1] Neville Longbottom -> Status: BROKEN
+Feb 22, 2026 11:26:45 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 11:35:32 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 11:35:32 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerNoAccountMessage(String) [1] Samuel Pekyi
+Feb 22, 2026 11:35:32 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerNoAccountMessage(String) [1] Samuel Pekyi
+Feb 22, 2026 11:35:46 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerNoAccountMessage(String) [1] Samuel Pekyi -> Status: BROKEN
+Feb 22, 2026 11:35:46 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 11:36:00 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 11:36:00 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerNoAccountMessage(String) [1] Samuel Pekyi
+Feb 22, 2026 11:36:00 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerNoAccountMessage(String) [1] Samuel Pekyi
+Feb 22, 2026 11:36:12 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerNoAccountMessage(String) [1] Samuel Pekyi -> Status: BROKEN
+Feb 22, 2026 11:36:12 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 11:44:51 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 11:44:51 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerNoAccountMessage(String, String, String) [1] Samuel, Pekyi, 123456
+Feb 22, 2026 11:44:51 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerNoAccountMessage(String, String, String) [1] Samuel, Pekyi, 123456
+Feb 22, 2026 11:45:02 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerNoAccountMessage(String, String, String) [1] Samuel, Pekyi, 123456 -> Status: PASSED
+Feb 22, 2026 11:45:02 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 11:48:59 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 11:48:59 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerLoginAndLogout(String) [1] Harry Potter
+Feb 22, 2026 11:48:59 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerLoginAndLogout(String) [1] Harry Potter
+Feb 22, 2026 11:49:08 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerLoginAndLogout(String) [1] Harry Potter -> Status: PASSED
+Feb 22, 2026 11:49:08 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 11:49:09 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 11:49:09 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerLoginAndLogout(String) [2] Hermoine Granger
+Feb 22, 2026 11:49:09 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerLoginAndLogout(String) [2] Hermoine Granger
+Feb 22, 2026 11:49:15 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerLoginAndLogout(String) [2] Hermoine Granger -> Status: PASSED
+Feb 22, 2026 11:49:15 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 11:49:50 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 11:49:50 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerLoginAndLogout(String) [1] Harry Potter
+Feb 22, 2026 11:49:50 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerLoginAndLogout(String) [1] Harry Potter
+Feb 22, 2026 11:49:59 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerLoginAndLogout(String) [1] Harry Potter -> Status: PASSED
+Feb 22, 2026 11:49:59 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 11:50:00 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 11:50:00 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerLoginAndLogout(String) [2] Hermoine Granger
+Feb 22, 2026 11:50:00 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerLoginAndLogout(String) [2] Hermoine Granger
+Feb 22, 2026 11:50:07 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerLoginAndLogout(String) [2] Hermoine Granger -> Status: PASSED
+Feb 22, 2026 11:50:07 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 11:50:07 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 11:50:07 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerNoAccountMessage(String, String, String) [1] Samuel, Pekyi, 123456
+Feb 22, 2026 11:50:07 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerNoAccountMessage(String, String, String) [1] Samuel, Pekyi, 123456
+Feb 22, 2026 11:50:16 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerNoAccountMessage(String, String, String) [1] Samuel, Pekyi, 123456 -> Status: PASSED
+Feb 22, 2026 11:50:16 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 11:50:16 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 11:50:16 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testLoginButtonIsHiddenInitially()
+Feb 22, 2026 11:50:16 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testLoginButtonIsHiddenInitially()
+Feb 22, 2026 11:50:22 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testLoginButtonIsHiddenInitially() -> Status: PASSED
+Feb 22, 2026 11:50:22 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 11:59:36 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 11:59:36 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerDeposit(String, String, String) [1] Harry Potter, 500, Deposit Successful
+Feb 22, 2026 11:59:36 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerDeposit(String, String, String) [1] Harry Potter, 500, Deposit Successful
+Feb 22, 2026 11:59:47 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerDeposit(String, String, String) [1] Harry Potter, 500, Deposit Successful -> Status: PASSED
+Feb 22, 2026 11:59:47 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 11:59:47 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 11:59:47 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerDepositNegative(String, String, String) [1] Harry Potter, -50, 
+Feb 22, 2026 11:59:47 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerDepositNegative(String, String, String) [1] Harry Potter, -50, 
+Feb 22, 2026 12:00:16 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerDepositNegative(String, String, String) [1] Harry Potter, -50,  -> Status: PASSED
+Feb 22, 2026 12:00:16 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 12:00:16 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 12:00:16 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerDepositNegative(String, String, String) [2] Harry Potter, 0, 
+Feb 22, 2026 12:00:16 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerDepositNegative(String, String, String) [2] Harry Potter, 0, 
+Feb 22, 2026 12:00:43 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerDepositNegative(String, String, String) [2] Harry Potter, 0,  -> Status: PASSED
+Feb 22, 2026 12:00:43 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 2:52:59 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 2:52:59 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerDeposit(String, String, String) [1] Harry Potter, 500, Deposit Successful
+Feb 22, 2026 2:52:59 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerDeposit(String, String, String) [1] Harry Potter, 500, Deposit Successful
+Feb 22, 2026 2:53:10 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerDeposit(String, String, String) [1] Harry Potter, 500, Deposit Successful -> Status: PASSED
+Feb 22, 2026 2:53:10 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 2:59:56 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 2:59:56 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerDeposit(String, String, String) [1] Harry Potter, 500, Deposit Successful
+Feb 22, 2026 2:59:56 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerDeposit(String, String, String) [1] Harry Potter, 500, Deposit Successful
+Feb 22, 2026 3:00:06 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerDeposit(String, String, String) [1] Harry Potter, 500, Deposit Successful -> Status: FAILED
+Feb 22, 2026 3:00:06 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 4:09:14 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 4:09:14 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerDepositNegative(String, String, String) [1] Harry Potter, -50, 
+Feb 22, 2026 4:09:14 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerDepositNegative(String, String, String) [1] Harry Potter, -50, 
+Feb 22, 2026 4:10:10 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerDepositNegative(String, String, String) [1] Harry Potter, -50,  -> Status: FAILED
+Feb 22, 2026 4:10:10 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 4:10:10 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 4:10:10 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerDepositNegative(String, String, String) [2] Harry Potter, 0, 
+Feb 22, 2026 4:10:10 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerDepositNegative(String, String, String) [2] Harry Potter, 0, 
+Feb 22, 2026 4:11:00 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerDepositNegative(String, String, String) [2] Harry Potter, 0,  -> Status: FAILED
+Feb 22, 2026 4:11:00 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 4:13:09 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 4:13:09 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerDeposit(String, String, String) [1] Harry Potter, 500, Deposit Successful
+Feb 22, 2026 4:13:09 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerDeposit(String, String, String) [1] Harry Potter, 500, Deposit Successful
+Feb 22, 2026 4:13:25 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerDeposit(String, String, String) [1] Harry Potter, 500, Deposit Successful -> Status: FAILED
+Feb 22, 2026 4:13:25 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 4:20:48 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 4:20:48 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerDeposit(String, String, String) [1] Harry Potter, 500, Deposit Successful
+Feb 22, 2026 4:20:48 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerDeposit(String, String, String) [1] Harry Potter, 500, Deposit Successful
+Feb 22, 2026 4:21:01 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerDeposit(String, String, String) [1] Harry Potter, 500, Deposit Successful -> Status: FAILED
+Feb 22, 2026 4:21:01 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 4:25:17 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 4:25:17 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerDepositNegative(String, String, String) [1] Harry Potter, -50, 
+Feb 22, 2026 4:25:17 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerDepositNegative(String, String, String) [1] Harry Potter, -50, 
+Feb 22, 2026 4:26:09 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerDepositNegative(String, String, String) [1] Harry Potter, -50,  -> Status: FAILED
+Feb 22, 2026 4:26:09 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 4:26:09 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 4:26:09 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerDepositNegative(String, String, String) [2] Harry Potter, 0, 
+Feb 22, 2026 4:26:09 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerDepositNegative(String, String, String) [2] Harry Potter, 0, 
+Feb 22, 2026 4:27:01 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerDepositNegative(String, String, String) [2] Harry Potter, 0,  -> Status: FAILED
+Feb 22, 2026 4:27:01 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 6:05:06 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 6:05:06 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerDepositNegative(String, String, String) [1] Harry Potter, -50, Deposit Unsuccessful. Please enter a positive amount.
+Feb 22, 2026 6:05:06 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerDepositNegative(String, String, String) [1] Harry Potter, -50, Deposit Unsuccessful. Please enter a positive amount.
+Feb 22, 2026 6:06:03 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerDepositNegative(String, String, String) [1] Harry Potter, -50, Deposit Unsuccessful. Please enter a positive amount. -> Status: FAILED
+Feb 22, 2026 6:06:03 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 6:06:03 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 6:06:03 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerDepositNegative(String, String, String) [2] Harry Potter, 0, Deposit Unsuccessful. Please enter a positive amount.
+Feb 22, 2026 6:06:03 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerDepositNegative(String, String, String) [2] Harry Potter, 0, Deposit Unsuccessful. Please enter a positive amount.
+Feb 22, 2026 6:06:55 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerDepositNegative(String, String, String) [2] Harry Potter, 0, Deposit Unsuccessful. Please enter a positive amount. -> Status: FAILED
+Feb 22, 2026 6:06:55 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 6:11:52 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 6:11:52 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerTransactionHistory(String, String, String) [1] Harry Potter, 500, Deposit Successful
+Feb 22, 2026 6:11:52 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerTransactionHistory(String, String, String) [1] Harry Potter, 500, Deposit Successful
+Feb 22, 2026 6:12:07 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerTransactionHistory(String, String, String) [1] Harry Potter, 500, Deposit Successful -> Status: FAILED
+Feb 22, 2026 6:12:07 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 6:14:45 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 6:14:45 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerTransactionHistory(String, String, String) [1] Harry Potter, 500, Deposit Successful
+Feb 22, 2026 6:14:45 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerTransactionHistory(String, String, String) [1] Harry Potter, 500, Deposit Successful
+Feb 22, 2026 6:15:01 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerTransactionHistory(String, String, String) [1] Harry Potter, 500, Deposit Successful -> Status: FAILED
+Feb 22, 2026 6:15:01 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 6:19:06 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 6:19:06 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerTransactionHistory(String, String, String) [1] Harry Potter, 500, Deposit Successful
+Feb 22, 2026 6:19:06 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerTransactionHistory(String, String, String) [1] Harry Potter, 500, Deposit Successful
+Feb 22, 2026 6:19:21 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerTransactionHistory(String, String, String) [1] Harry Potter, 500, Deposit Successful -> Status: PASSED
+Feb 22, 2026 6:19:21 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 6:44:23 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 6:44:23 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerWithdrawal(String, String, String, String) [1] Harry Potter, 500, 200, Transaction successful
+Feb 22, 2026 6:44:23 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerWithdrawal(String, String, String, String) [1] Harry Potter, 500, 200, Transaction successful
+Feb 22, 2026 6:44:38 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerWithdrawal(String, String, String, String) [1] Harry Potter, 500, 200, Transaction successful -> Status: PASSED
+Feb 22, 2026 6:44:38 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 6:53:48 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 6:53:48 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerWithdrawal(String, String, String, String) [1] Harry Potter, 500, 200, Transaction successful
+Feb 22, 2026 6:53:48 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerWithdrawal(String, String, String, String) [1] Harry Potter, 500, 200, Transaction successful
+Feb 22, 2026 6:54:02 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerWithdrawal(String, String, String, String) [1] Harry Potter, 500, 200, Transaction successful -> Status: FAILED
+Feb 22, 2026 6:54:02 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 6:55:36 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 6:55:36 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerWithdrawalNegative(String, String, String, String) [1] Harry Potter, 500, -200, Transaction Failed. Please enter a positive amount.
+Feb 22, 2026 6:55:36 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerWithdrawalNegative(String, String, String, String) [1] Harry Potter, 500, -200, Transaction Failed. Please enter a positive amount.
+Feb 22, 2026 6:56:30 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerWithdrawalNegative(String, String, String, String) [1] Harry Potter, 500, -200, Transaction Failed. Please enter a positive amount. -> Status: FAILED
+Feb 22, 2026 6:56:30 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 6:56:30 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 6:56:30 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerWithdrawalNegative(String, String, String, String) [2] Harry Potter, 500, 0, Transaction Failed. Please enter a positive amount.
+Feb 22, 2026 6:56:30 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerWithdrawalNegative(String, String, String, String) [2] Harry Potter, 500, 0, Transaction Failed. Please enter a positive amount.
+Feb 22, 2026 6:57:23 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerWithdrawalNegative(String, String, String, String) [2] Harry Potter, 500, 0, Transaction Failed. Please enter a positive amount. -> Status: FAILED
+Feb 22, 2026 6:57:23 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:07:34 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:07:34 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerWithdrawalMoreThanBalance(String, String, String, String) [1] Harry Potter, 200, 500, Transaction Failed. You can not withdraw amount more than the balance.
+Feb 22, 2026 7:07:34 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerWithdrawalMoreThanBalance(String, String, String, String) [1] Harry Potter, 200, 500, Transaction Failed. You can not withdraw amount more than the balance.
+Feb 22, 2026 7:07:47 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerWithdrawalMoreThanBalance(String, String, String, String) [1] Harry Potter, 200, 500, Transaction Failed. You can not withdraw amount more than the balance. -> Status: PASSED
+Feb 22, 2026 7:07:47 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:14:35 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:14:36 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testAddCustomer(String, String, String) [1] John, Doe, L1T 2R4
+Feb 22, 2026 7:14:36 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testAddCustomer(String, String, String) [1] John, Doe, L1T 2R4
+Feb 22, 2026 7:14:49 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testAddCustomer(String, String, String) [1] John, Doe, L1T 2R4 -> Status: PASSED
+Feb 22, 2026 7:14:49 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:14:49 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:14:49 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testAddCustomer(String, String, String) [2] Jane, Smith, E55555
+Feb 22, 2026 7:14:49 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testAddCustomer(String, String, String) [2] Jane, Smith, E55555
+Feb 22, 2026 7:14:59 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testAddCustomer(String, String, String) [2] Jane, Smith, E55555 -> Status: PASSED
+Feb 22, 2026 7:14:59 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:17:59 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:17:59 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testAddCustomerValidation(String, String, String) [1] John123, Doe, E55555
+Feb 22, 2026 7:17:59 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testAddCustomerValidation(String, String, String) [1] John123, Doe, E55555
+Feb 22, 2026 7:18:13 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testAddCustomerValidation(String, String, String) [1] John123, Doe, E55555 -> Status: FAILED
+Feb 22, 2026 7:18:13 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:18:13 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:18:13 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testAddCustomerValidation(String, String, String) [2] Jane, Smith@!, E55555
+Feb 22, 2026 7:18:13 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testAddCustomerValidation(String, String, String) [2] Jane, Smith@!, E55555
+Feb 22, 2026 7:18:24 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testAddCustomerValidation(String, String, String) [2] Jane, Smith@!, E55555 -> Status: FAILED
+Feb 22, 2026 7:18:24 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:18:24 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:18:24 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testAddCustomerValidation(String, String, String) [3] Jim, Beam, ABCDEF
+Feb 22, 2026 7:18:24 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testAddCustomerValidation(String, String, String) [3] Jim, Beam, ABCDEF
+Feb 22, 2026 7:18:34 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testAddCustomerValidation(String, String, String) [3] Jim, Beam, ABCDEF -> Status: FAILED
+Feb 22, 2026 7:18:34 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:18:34 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:18:34 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testAddCustomerValidation(String, String, String) [4] Jack, Daniels, 123 456!
+Feb 22, 2026 7:18:34 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testAddCustomerValidation(String, String, String) [4] Jack, Daniels, 123 456!
+Feb 22, 2026 7:18:44 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testAddCustomerValidation(String, String, String) [4] Jack, Daniels, 123 456! -> Status: FAILED
+Feb 22, 2026 7:18:44 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:18:44 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:18:44 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testAddCustomerValidation(String, String, String) [5] , Wayne, 12345
+Feb 22, 2026 7:18:44 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testAddCustomerValidation(String, String, String) [5] , Wayne, 12345
+Feb 22, 2026 7:18:55 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testAddCustomerValidation(String, String, String) [5] , Wayne, 12345 -> Status: PASSED
+Feb 22, 2026 7:18:55 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:21:48 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:21:48 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testAddCustomer(String, String, String) [1] John, Doe, L1T 2R4
+Feb 22, 2026 7:21:48 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testAddCustomer(String, String, String) [1] John, Doe, L1T 2R4
+Feb 22, 2026 7:22:00 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testAddCustomer(String, String, String) [1] John, Doe, L1T 2R4 -> Status: PASSED
+Feb 22, 2026 7:22:00 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:22:01 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:22:01 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testAddCustomer(String, String, String) [2] Jane, Smith, E55555
+Feb 22, 2026 7:22:01 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testAddCustomer(String, String, String) [2] Jane, Smith, E55555
+Feb 22, 2026 7:22:11 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testAddCustomer(String, String, String) [2] Jane, Smith, E55555 -> Status: PASSED
+Feb 22, 2026 7:22:11 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:22:11 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:22:11 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testAddCustomerValidation(String, String, String) [1] John123, Doe, E55555
+Feb 22, 2026 7:22:11 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testAddCustomerValidation(String, String, String) [1] John123, Doe, E55555
+Feb 22, 2026 7:22:22 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testAddCustomerValidation(String, String, String) [1] John123, Doe, E55555 -> Status: FAILED
+Feb 22, 2026 7:22:22 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:22:22 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:22:22 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testAddCustomerValidation(String, String, String) [2] Jane, Smith@!, E55555
+Feb 22, 2026 7:22:22 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testAddCustomerValidation(String, String, String) [2] Jane, Smith@!, E55555
+Feb 22, 2026 7:22:31 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testAddCustomerValidation(String, String, String) [2] Jane, Smith@!, E55555 -> Status: FAILED
+Feb 22, 2026 7:22:31 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:22:32 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:22:32 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testAddCustomerValidation(String, String, String) [3] Jim, Beam, ABCDEF
+Feb 22, 2026 7:22:32 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testAddCustomerValidation(String, String, String) [3] Jim, Beam, ABCDEF
+Feb 22, 2026 7:22:41 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testAddCustomerValidation(String, String, String) [3] Jim, Beam, ABCDEF -> Status: FAILED
+Feb 22, 2026 7:22:41 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:22:41 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:22:41 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testAddCustomerValidation(String, String, String) [4] Jack, Daniels, 123 456!
+Feb 22, 2026 7:22:41 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testAddCustomerValidation(String, String, String) [4] Jack, Daniels, 123 456!
+Feb 22, 2026 7:22:51 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testAddCustomerValidation(String, String, String) [4] Jack, Daniels, 123 456! -> Status: FAILED
+Feb 22, 2026 7:22:51 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:22:51 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:22:51 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testAddCustomerValidation(String, String, String) [5] , Wayne, 12345
+Feb 22, 2026 7:22:51 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testAddCustomerValidation(String, String, String) [5] , Wayne, 12345
+Feb 22, 2026 7:23:01 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testAddCustomerValidation(String, String, String) [5] , Wayne, 12345 -> Status: PASSED
+Feb 22, 2026 7:23:01 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:25:07 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:25:07 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testSearchAndVerifyCustomer(String) [1] Hermoine
+Feb 22, 2026 7:25:07 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testSearchAndVerifyCustomer(String) [1] Hermoine
+Feb 22, 2026 7:25:18 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testSearchAndVerifyCustomer(String) [1] Hermoine -> Status: PASSED
+Feb 22, 2026 7:25:18 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:25:19 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:25:19 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testSearchAndVerifyCustomer(String) [2] Neville
+Feb 22, 2026 7:25:19 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testSearchAndVerifyCustomer(String) [2] Neville
+Feb 22, 2026 7:25:29 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testSearchAndVerifyCustomer(String) [2] Neville -> Status: PASSED
+Feb 22, 2026 7:25:29 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:30:10 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:30:10 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testSearchAndVerifyCustomer(String, String) [1] Hermoine, Granger
+Feb 22, 2026 7:30:10 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testSearchAndVerifyCustomer(String, String) [1] Hermoine, Granger
+Feb 22, 2026 7:30:23 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testSearchAndVerifyCustomer(String, String) [1] Hermoine, Granger -> Status: PASSED
+Feb 22, 2026 7:30:23 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:30:24 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:30:24 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testSearchAndVerifyCustomer(String, String) [2] Neville, Longbottom
+Feb 22, 2026 7:30:24 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testSearchAndVerifyCustomer(String, String) [2] Neville, Longbottom
+Feb 22, 2026 7:30:34 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testSearchAndVerifyCustomer(String, String) [2] Neville, Longbottom -> Status: PASSED
+Feb 22, 2026 7:30:34 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:37:09 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:37:09 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testOpenAccount(String, String) [1] Harry Potter, Dollar
+Feb 22, 2026 7:37:09 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testOpenAccount(String, String) [1] Harry Potter, Dollar
+Feb 22, 2026 7:37:22 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testOpenAccount(String, String) [1] Harry Potter, Dollar -> Status: PASSED
+Feb 22, 2026 7:37:22 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:37:22 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:37:22 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testOpenAccount(String, String) [2] Ron Weasly, Pound
+Feb 22, 2026 7:37:22 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testOpenAccount(String, String) [2] Ron Weasly, Pound
+Feb 22, 2026 7:37:32 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testOpenAccount(String, String) [2] Ron Weasly, Pound -> Status: PASSED
+Feb 22, 2026 7:37:32 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:37:55 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:37:55 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testOpenAccountValidation(String, String) [1] , Rupee
+Feb 22, 2026 7:37:55 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testOpenAccountValidation(String, String) [1] , Rupee
+Feb 22, 2026 7:38:07 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testOpenAccountValidation(String, String) [1] , Rupee -> Status: PASSED
+Feb 22, 2026 7:38:07 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:38:08 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:38:08 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testOpenAccountValidation(String, String) [2] Harry Potter, 
+Feb 22, 2026 7:38:08 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testOpenAccountValidation(String, String) [2] Harry Potter, 
+Feb 22, 2026 7:38:18 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testOpenAccountValidation(String, String) [2] Harry Potter,  -> Status: PASSED
+Feb 22, 2026 7:38:18 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:38:38 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:38:38 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testOpenAccount(String, String) [1] Harry Potter, Dollar
+Feb 22, 2026 7:38:38 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testOpenAccount(String, String) [1] Harry Potter, Dollar
+Feb 22, 2026 7:38:51 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testOpenAccount(String, String) [1] Harry Potter, Dollar -> Status: PASSED
+Feb 22, 2026 7:38:51 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:38:52 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:38:52 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testOpenAccount(String, String) [2] Ron Weasly, Pound
+Feb 22, 2026 7:38:52 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testOpenAccount(String, String) [2] Ron Weasly, Pound
+Feb 22, 2026 7:39:01 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testOpenAccount(String, String) [2] Ron Weasly, Pound -> Status: PASSED
+Feb 22, 2026 7:39:01 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:39:01 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:39:01 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testOpenAccountValidation(String, String) [1] , Rupee
+Feb 22, 2026 7:39:01 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testOpenAccountValidation(String, String) [1] , Rupee
+Feb 22, 2026 7:39:12 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testOpenAccountValidation(String, String) [1] , Rupee -> Status: PASSED
+Feb 22, 2026 7:39:12 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:39:12 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:39:12 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testOpenAccountValidation(String, String) [2] Harry Potter, 
+Feb 22, 2026 7:39:12 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testOpenAccountValidation(String, String) [2] Harry Potter, 
+Feb 22, 2026 7:39:22 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testOpenAccountValidation(String, String) [2] Harry Potter,  -> Status: PASSED
+Feb 22, 2026 7:39:22 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:40:15 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:40:15 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: verifyBankManagerNavigation()
+Feb 22, 2026 7:40:15 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: verifyBankManagerNavigation()
+Feb 22, 2026 7:40:26 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: verifyBankManagerNavigation() -> Status: PASSED
+Feb 22, 2026 7:40:26 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:40:26 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:40:26 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: verifyCustomerLoginNavigation()
+Feb 22, 2026 7:40:26 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: verifyCustomerLoginNavigation()
+Feb 22, 2026 7:40:33 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: verifyCustomerLoginNavigation() -> Status: PASSED
+Feb 22, 2026 7:40:33 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:41:33 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:41:33 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testSearchAndVerifyCustomer(String, String) [1] Hermoine, Granger
+Feb 22, 2026 7:41:33 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testSearchAndVerifyCustomer(String, String) [1] Hermoine, Granger
+Feb 22, 2026 7:41:45 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testSearchAndVerifyCustomer(String, String) [1] Hermoine, Granger -> Status: PASSED
+Feb 22, 2026 7:41:45 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:41:46 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:41:46 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testSearchAndVerifyCustomer(String, String) [2] Neville, Longbottom
+Feb 22, 2026 7:41:46 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testSearchAndVerifyCustomer(String, String) [2] Neville, Longbottom
+Feb 22, 2026 7:41:55 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testSearchAndVerifyCustomer(String, String) [2] Neville, Longbottom -> Status: PASSED
+Feb 22, 2026 7:41:55 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:41:55 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:41:55 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testOpenAccount(String, String) [1] Harry Potter, Dollar
+Feb 22, 2026 7:41:55 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testOpenAccount(String, String) [1] Harry Potter, Dollar
+Feb 22, 2026 7:42:07 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testOpenAccount(String, String) [1] Harry Potter, Dollar -> Status: PASSED
+Feb 22, 2026 7:42:07 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:42:07 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:42:07 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testOpenAccount(String, String) [2] Ron Weasly, Pound
+Feb 22, 2026 7:42:07 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testOpenAccount(String, String) [2] Ron Weasly, Pound
+Feb 22, 2026 7:42:18 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testOpenAccount(String, String) [2] Ron Weasly, Pound -> Status: PASSED
+Feb 22, 2026 7:42:18 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:42:18 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:42:18 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testOpenAccountValidation(String, String) [1] , Rupee
+Feb 22, 2026 7:42:18 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testOpenAccountValidation(String, String) [1] , Rupee
+Feb 22, 2026 7:42:29 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testOpenAccountValidation(String, String) [1] , Rupee -> Status: PASSED
+Feb 22, 2026 7:42:29 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:42:29 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:42:29 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testOpenAccountValidation(String, String) [2] Harry Potter, 
+Feb 22, 2026 7:42:29 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testOpenAccountValidation(String, String) [2] Harry Potter, 
+Feb 22, 2026 7:42:40 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testOpenAccountValidation(String, String) [2] Harry Potter,  -> Status: PASSED
+Feb 22, 2026 7:42:40 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:42:40 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:42:40 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testAddCustomer(String, String, String) [1] John, Doe, L1T 2R4
+Feb 22, 2026 7:42:40 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testAddCustomer(String, String, String) [1] John, Doe, L1T 2R4
+Feb 22, 2026 7:42:51 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testAddCustomer(String, String, String) [1] John, Doe, L1T 2R4 -> Status: PASSED
+Feb 22, 2026 7:42:51 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:42:51 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:42:51 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testAddCustomer(String, String, String) [2] Jane, Smith, E55555
+Feb 22, 2026 7:42:51 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testAddCustomer(String, String, String) [2] Jane, Smith, E55555
+Feb 22, 2026 7:43:02 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testAddCustomer(String, String, String) [2] Jane, Smith, E55555 -> Status: PASSED
+Feb 22, 2026 7:43:02 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:43:03 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:43:03 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testAddCustomerValidation(String, String, String) [1] John123, Doe, E55555
+Feb 22, 2026 7:43:03 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testAddCustomerValidation(String, String, String) [1] John123, Doe, E55555
+Feb 22, 2026 7:43:13 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testAddCustomerValidation(String, String, String) [1] John123, Doe, E55555 -> Status: FAILED
+Feb 22, 2026 7:43:13 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:43:13 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:43:13 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testAddCustomerValidation(String, String, String) [2] Jane, Smith@!, E55555
+Feb 22, 2026 7:43:13 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testAddCustomerValidation(String, String, String) [2] Jane, Smith@!, E55555
+Feb 22, 2026 7:43:24 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testAddCustomerValidation(String, String, String) [2] Jane, Smith@!, E55555 -> Status: FAILED
+Feb 22, 2026 7:43:24 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:43:24 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:43:24 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testAddCustomerValidation(String, String, String) [3] Jim, Beam, ABCDEF
+Feb 22, 2026 7:43:24 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testAddCustomerValidation(String, String, String) [3] Jim, Beam, ABCDEF
+Feb 22, 2026 7:43:35 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testAddCustomerValidation(String, String, String) [3] Jim, Beam, ABCDEF -> Status: FAILED
+Feb 22, 2026 7:43:35 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:43:35 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:43:35 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testAddCustomerValidation(String, String, String) [4] Jack, Daniels, 123 456!
+Feb 22, 2026 7:43:35 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testAddCustomerValidation(String, String, String) [4] Jack, Daniels, 123 456!
+Feb 22, 2026 7:43:46 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testAddCustomerValidation(String, String, String) [4] Jack, Daniels, 123 456! -> Status: FAILED
+Feb 22, 2026 7:43:46 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:43:46 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:43:46 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testAddCustomerValidation(String, String, String) [5] , Wayne, 12345
+Feb 22, 2026 7:43:46 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testAddCustomerValidation(String, String, String) [5] , Wayne, 12345
+Feb 22, 2026 7:44:00 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testAddCustomerValidation(String, String, String) [5] , Wayne, 12345 -> Status: PASSED
+Feb 22, 2026 7:44:00 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:44:01 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:44:01 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerLoginAndLogout(String) [1] Harry Potter
+Feb 22, 2026 7:44:01 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerLoginAndLogout(String) [1] Harry Potter
+Feb 22, 2026 7:44:31 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerLoginAndLogout(String) [1] Harry Potter -> Status: FAILED
+Feb 22, 2026 7:44:31 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:44:31 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:44:31 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerLoginAndLogout(String) [2] Hermoine Granger
+Feb 22, 2026 7:44:31 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerLoginAndLogout(String) [2] Hermoine Granger
+Feb 22, 2026 7:45:03 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerLoginAndLogout(String) [2] Hermoine Granger -> Status: FAILED
+Feb 22, 2026 7:45:03 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:45:03 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:45:03 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerNoAccountMessage(String, String, String) [1] Samuel, Pekyi, 123456
+Feb 22, 2026 7:45:03 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerNoAccountMessage(String, String, String) [1] Samuel, Pekyi, 123456
+Feb 22, 2026 7:45:19 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerNoAccountMessage(String, String, String) [1] Samuel, Pekyi, 123456 -> Status: PASSED
+Feb 22, 2026 7:45:19 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:45:19 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:45:19 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testLoginButtonIsHiddenInitially()
+Feb 22, 2026 7:45:19 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testLoginButtonIsHiddenInitially()
+Feb 22, 2026 7:45:27 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testLoginButtonIsHiddenInitially() -> Status: PASSED
+Feb 22, 2026 7:45:27 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:45:27 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:45:27 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerTransactionHistory(String, String, String) [1] Harry Potter, 500, Deposit Successful
+Feb 22, 2026 7:45:27 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerTransactionHistory(String, String, String) [1] Harry Potter, 500, Deposit Successful
+Feb 22, 2026 7:45:43 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerTransactionHistory(String, String, String) [1] Harry Potter, 500, Deposit Successful -> Status: PASSED
+Feb 22, 2026 7:45:43 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:45:43 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:45:43 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerDeposit(String, String, String) [1] Harry Potter, 500, Deposit Successful
+Feb 22, 2026 7:45:43 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerDeposit(String, String, String) [1] Harry Potter, 500, Deposit Successful
+Feb 22, 2026 7:45:54 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerDeposit(String, String, String) [1] Harry Potter, 500, Deposit Successful -> Status: FAILED
+Feb 22, 2026 7:45:54 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:45:54 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:45:54 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerDepositNegative(String, String, String) [1] Harry Potter, -50, Deposit Unsuccessful. Please enter a positive amount.
+Feb 22, 2026 7:45:54 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerDepositNegative(String, String, String) [1] Harry Potter, -50, Deposit Unsuccessful. Please enter a positive amount.
+Feb 22, 2026 7:46:45 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerDepositNegative(String, String, String) [1] Harry Potter, -50, Deposit Unsuccessful. Please enter a positive amount. -> Status: FAILED
+Feb 22, 2026 7:46:45 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:46:45 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:46:45 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerDepositNegative(String, String, String) [2] Harry Potter, 0, Deposit Unsuccessful. Please enter a positive amount.
+Feb 22, 2026 7:46:45 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerDepositNegative(String, String, String) [2] Harry Potter, 0, Deposit Unsuccessful. Please enter a positive amount.
+Feb 22, 2026 7:47:35 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerDepositNegative(String, String, String) [2] Harry Potter, 0, Deposit Unsuccessful. Please enter a positive amount. -> Status: FAILED
+Feb 22, 2026 7:47:35 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:47:35 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:47:35 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerWithdrawalMoreThanBalance(String, String, String, String) [1] Harry Potter, 200, 500, Transaction Failed. You can not withdraw amount more than the balance.
+Feb 22, 2026 7:47:35 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerWithdrawalMoreThanBalance(String, String, String, String) [1] Harry Potter, 200, 500, Transaction Failed. You can not withdraw amount more than the balance.
+Feb 22, 2026 7:47:48 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerWithdrawalMoreThanBalance(String, String, String, String) [1] Harry Potter, 200, 500, Transaction Failed. You can not withdraw amount more than the balance. -> Status: PASSED
+Feb 22, 2026 7:47:48 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:47:48 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:47:48 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerWithdrawalNegative(String, String, String, String) [1] Harry Potter, 500, -200, Transaction Failed. Please enter a positive amount.
+Feb 22, 2026 7:47:48 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerWithdrawalNegative(String, String, String, String) [1] Harry Potter, 500, -200, Transaction Failed. Please enter a positive amount.
+Feb 22, 2026 7:48:42 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerWithdrawalNegative(String, String, String, String) [1] Harry Potter, 500, -200, Transaction Failed. Please enter a positive amount. -> Status: FAILED
+Feb 22, 2026 7:48:42 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:48:42 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:48:42 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerWithdrawalNegative(String, String, String, String) [2] Harry Potter, 500, 0, Transaction Failed. Please enter a positive amount.
+Feb 22, 2026 7:48:42 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerWithdrawalNegative(String, String, String, String) [2] Harry Potter, 500, 0, Transaction Failed. Please enter a positive amount.
+Feb 22, 2026 7:49:36 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerWithdrawalNegative(String, String, String, String) [2] Harry Potter, 500, 0, Transaction Failed. Please enter a positive amount. -> Status: FAILED
+Feb 22, 2026 7:49:36 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:49:36 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:49:36 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerWithdrawal(String, String, String, String) [1] Harry Potter, 500, 200, Transaction successful
+Feb 22, 2026 7:49:36 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerWithdrawal(String, String, String, String) [1] Harry Potter, 500, 200, Transaction successful
+Feb 22, 2026 7:49:50 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerWithdrawal(String, String, String, String) [1] Harry Potter, 500, 200, Transaction successful -> Status: FAILED
+Feb 22, 2026 7:49:50 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:49:50 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:49:50 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: verifyBankManagerNavigation()
+Feb 22, 2026 7:49:50 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: verifyBankManagerNavigation()
+Feb 22, 2026 7:49:58 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: verifyBankManagerNavigation() -> Status: PASSED
+Feb 22, 2026 7:49:58 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 7:49:58 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 7:49:58 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: verifyCustomerLoginNavigation()
+Feb 22, 2026 7:49:58 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: verifyCustomerLoginNavigation()
+Feb 22, 2026 7:50:07 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: verifyCustomerLoginNavigation() -> Status: PASSED
+Feb 22, 2026 7:50:07 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 8:15:17 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 8:15:17 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerTransactionHistory(String, String, String) [1] Harry Potter, 500, Deposit Successful
+Feb 22, 2026 8:15:17 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerTransactionHistory(String, String, String) [1] Harry Potter, 500, Deposit Successful
+Feb 22, 2026 8:15:38 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerTransactionHistory(String, String, String) [1] Harry Potter, 500, Deposit Successful -> Status: FAILED
+Feb 22, 2026 8:15:38 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 22, 2026 8:16:24 PM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 22, 2026 8:16:24 PM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerTransactionHistory(String, String, String) [1] Harry Potter, 500, Deposit Successful
+Feb 22, 2026 8:16:24 PM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerTransactionHistory(String, String, String) [1] Harry Potter, 500, Deposit Successful
+Feb 22, 2026 8:16:40 PM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerTransactionHistory(String, String, String) [1] Harry Potter, 500, Deposit Successful -> Status: PASSED
+Feb 22, 2026 8:16:40 PM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+

@@ -1,4 +1,11 @@
 {
+    "customerNoAccount": [
+        {
+            "firstName": "Samuel",
+            "lastName": "Pekyi",
+            "postCode": "123456"
+        }
+    ],
     "customerAuth": [
         {
             "userName": "Harry Potter"
@@ -14,12 +21,46 @@
             "expectedMessage": "Deposit Successful"
         }
     ],
+    "customerDepositNegative": [
+        {
+            "userName": "Harry Potter",
+            "amount": "-50",
+            "expectedMessage": "Deposit Unsuccessful. Please enter a positive amount."
+        },
+        {
+            "userName": "Harry Potter",
+            "amount": "0",
+            "expectedMessage": "Deposit Unsuccessful. Please enter a positive amount."
+        }
+    ],
     "customerWithdrawal": [
         {
             "userName": "Harry Potter",
             "depositAmount": "500",
             "withdrawalAmount": "200",
             "expectedMessage": "Transaction successful"
+        }
+    ],
+    "customerWithdrawalNegative": [
+        {
+            "userName": "Harry Potter",
+            "depositAmount": "500",
+            "withdrawalAmount": "-200",
+            "expectedMessage": "Transaction Failed. Please enter a positive amount."
+        },
+        {
+            "userName": "Harry Potter",
+            "depositAmount": "500",
+            "withdrawalAmount": "0",
+            "expectedMessage": "Transaction Failed. Please enter a positive amount."
+        }
+    ],
+    "customerWithdrawalMoreThanBalance": [
+        {
+            "userName": "Harry Potter",
+            "depositAmount": "200",
+            "withdrawalAmount": "500",
+            "expectedMessage": "Transaction Failed. You can not withdraw amount more than the balance."
         }
     ],
     "newCustomers": [
@@ -34,6 +75,33 @@
             "postCode": "E55555"
         }
     ],
+    "invalidCustomers": [
+        {
+            "firstName": "John123",
+            "lastName": "Doe",
+            "postCode": "E55555"
+        },
+        {
+            "firstName": "Jane",
+            "lastName": "Smith@!",
+            "postCode": "E55555"
+        },
+        {
+            "firstName": "Jim",
+            "lastName": "Beam",
+            "postCode": "ABCDEF"
+        },
+        {
+            "firstName": "Jack",
+            "lastName": "Daniels",
+            "postCode": "123 456!"
+        },
+        {
+            "firstName": "",
+            "lastName": "Wayne",
+            "postCode": "12345"
+        }
+    ],
     "openAccounts": [
         {
             "customerName": "Harry Potter",
@@ -44,12 +112,24 @@
             "currency": "Pound"
         }
     ],
-    "searchCustomers": [
+    "invalidOpenAccounts": [
         {
-            "firstName": "Hermoine"
+            "customerName": "",
+            "currency": "Rupee"
         },
         {
-            "firstName": "Neville"
+            "customerName": "Harry Potter",
+            "currency": ""
+        }
+    ],
+    "searchCustomers": [
+        {
+            "firstName": "Hermoine",
+            "lastName": "Granger"
+        },
+        {
+            "firstName": "Neville",
+            "lastName": "Longbottom"
         }
     ]
 }

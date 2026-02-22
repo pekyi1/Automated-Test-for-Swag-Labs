@@ -8,6 +8,7 @@ import pages.CustomersPage;
 import pages.ManagerPage;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertAll;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -25,13 +26,27 @@ public class ManagerCustomersTest extends BaseTest {
     @Story("Search Customers")
     @Severity(SeverityLevel.NORMAL)
     @Description("This test navigates to the Manager portal, goes to the Customers list, and verifies that a specific customer can be found via search.")
-    public void testSearchAndVerifyCustomer(String customerName) {
+    public void testSearchAndVerifyCustomer(String firstName, String lastName) {
+        // Step 1: Login as Manager and navigate to Customers tab
         ManagerPage managerPage = loginPage.clickBankManagerLogin();
         CustomersPage customersPage = managerPage.clickCustomersTab();
 
-        customersPage.searchCustomer(customerName);
+        // Step 2: Search for the customer using first name
+        customersPage.searchCustomer(firstName);
 
-        assertTrue(customersPage.isCustomerInList(customerName),
-                "Expected customer " + customerName + " to be found in the customers list after searching");
+        // Step 3: Verify the customer appears in the list
+        assertAll("Search customer checks (First Name)",
+                () -> assertTrue(customersPage.isCustomerInList(firstName),
+                        "Expected customer " + firstName
+                                + " to be found in the customers list after searching by first name"));
+
+        // Step 4: Search for the customer using last name
+        customersPage.searchCustomer(lastName);
+
+        // Step 5: Verify the customer appears in the list
+        assertAll("Search customer checks (Last Name)",
+                () -> assertTrue(customersPage.isCustomerInList(lastName),
+                        "Expected customer " + lastName
+                                + " to be found in the customers list after searching by last name"));
     }
 }

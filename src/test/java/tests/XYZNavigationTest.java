@@ -7,6 +7,7 @@ import pages.CustomerLoginPage;
 import pages.ManagerPage;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertAll;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -24,9 +25,13 @@ public class XYZNavigationTest extends BaseTest {
     @Severity(SeverityLevel.BLOCKER)
     @Description("This test verifies that the Customer Login button correctly navigates to the Customer portal view.")
     public void verifyCustomerLoginNavigation() {
+        // Step 1: Click Customer Login button
         CustomerLoginPage customerLoginPage = loginPage.clickCustomerLogin();
-        assertTrue(customerLoginPage.isUserDropdownVisible(),
-                "User selection dropdown should be visible on Customer Login page");
+
+        // Step 2: Verify user dropdown is visible
+        assertAll("Customer login navigation checks",
+                () -> assertTrue(customerLoginPage.isUserDropdownVisible(),
+                        "User selection dropdown should be visible on Customer Login page"));
     }
 
     @Test
@@ -35,8 +40,12 @@ public class XYZNavigationTest extends BaseTest {
     @Severity(SeverityLevel.BLOCKER)
     @Description("This test verifies that the Bank Manager Login button correctly navigates to the Manager portal view.")
     public void verifyBankManagerNavigation() {
+        // Step 1: Click Bank Manager Login button
         ManagerPage managerPage = loginPage.clickBankManagerLogin();
-        assertTrue(managerPage.areManagerTabsVisible(),
-                "Add Customer, Open Account, and Customers tabs should be visible on Manager page");
+
+        // Step 2: Verify Manager tabs are visible
+        assertAll("Bank manager navigation checks",
+                () -> assertTrue(managerPage.areManagerTabsVisible(),
+                        "Add Customer, Open Account, and Customers tabs should be visible on Manager page"));
     }
 }

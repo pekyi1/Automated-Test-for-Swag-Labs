@@ -42,6 +42,14 @@ public class CustomerLoginPage {
         return this;
     }
 
+    public boolean isLoginButtonVisible() {
+        try {
+            return loginBtn.isDisplayed();
+        } catch (Exception e) {
+            return false;
+        }
+    }
+
     public CustomerAccountPage clickLogin() {
         waitUtils.safeClick(loginBtn);
         return new CustomerAccountPage(driver);

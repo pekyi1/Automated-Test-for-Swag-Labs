@@ -10,6 +10,7 @@ import pages.CustomerLoginPage;
 import pages.CustomerTransactionsPage;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
@@ -38,6 +39,10 @@ public class CustomerTransactionsTest extends BaseTest {
                 CustomerDepositPage depositPage = accountPage.clickDepositTab();
                 depositPage.enterAmount(amount)
                                 .clickDepositSubmit();
+
+                // Wait for the specific success message to ensure the backend processed it
+                assertEquals(expectedMessage, depositPage.getMessage(),
+                                "Expected successful deposit before checking history");
 
                 // Step 3: Navigate to transactions
                 CustomerTransactionsPage transactionsPage = accountPage.clickTransactionsTab();

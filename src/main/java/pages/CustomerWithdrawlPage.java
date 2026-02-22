@@ -44,4 +44,13 @@ public class CustomerWithdrawlPage {
             return "";
         }
     }
+
+    public String getMessageClass() {
+        try {
+            waitUtils.waitForVisibility(messageLabel);
+            return messageLabel.getAttribute("class");
+        } catch (Exception e) {
+            return "";
+        }
+    }
 }

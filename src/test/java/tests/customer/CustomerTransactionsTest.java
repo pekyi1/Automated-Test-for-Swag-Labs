@@ -47,12 +47,6 @@ public class CustomerTransactionsTest extends BaseTest {
                 // Step 3: Navigate to transactions
                 CustomerTransactionsPage transactionsPage = accountPage.clickTransactionsTab();
 
-                // Wait for the backend to record the transaction
-                try {
-                        java.lang.Thread.sleep(2000);
-                } catch (InterruptedException ignored) {
-                }
-
                 // Step 4: Verify the deposit transaction is present in history
                 boolean transactionFound = transactionsPage.isTransactionPresent(amount, "Credit");
                 assertAll("Transaction history checks",

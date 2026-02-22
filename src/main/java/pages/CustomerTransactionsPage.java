@@ -50,11 +50,15 @@ public class CustomerTransactionsPage {
 
         while (System.currentTimeMillis() < endTime) {
             try {
-                for (WebElement row : transactionRows) {
+                // Fetch rows cleanly on each iteration to guarantee we aren't using a cached
+                // empty list
+                List<WebElement> rows = driver
+                        .findElements(org.openqa.selenium.By.cssSelector("table.table-bordered tbody tr"));
+                for (WebElement row : rows) {
                     List<WebElement> cols = row.findElements(org.openqa.selenium.By.tagName("td"));
                     if (cols.size() >= 3) {
-                        String amount = cols.get(1).getText();
-                        String type = cols.get(2).getText();
+                        String amount = cols.get(1).getText().trim();
+                        String type = cols.get(2).getText().trim();
                         if (amount.equals(expectedAmount) && type.equalsIgnoreCase(expectedType)) {
                             return true;
                         }

@@ -16,7 +16,7 @@ public class CustomerDepositPage {
     @FindBy(css = "form[ng-submit='deposit()'] button[type='submit']")
     private WebElement depositSubmitBtn;
 
-    @FindBy(css = "span.error")
+    @FindBy(css = "span[ng-show='message']")
     private WebElement messageLabel;
 
     public CustomerDepositPage(WebDriver driver) {
@@ -40,6 +40,15 @@ public class CustomerDepositPage {
         try {
             waitUtils.waitForVisibility(messageLabel);
             return messageLabel.getText();
+        } catch (Exception e) {
+            return "";
+        }
+    }
+
+    public String getMessageClass() {
+        try {
+            waitUtils.waitForVisibility(messageLabel);
+            return messageLabel.getAttribute("class");
         } catch (Exception e) {
             return "";
         }

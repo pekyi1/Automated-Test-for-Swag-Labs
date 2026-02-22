@@ -15,12 +15,24 @@ public class JsonDataUtils {
         return readArrayFromJson("newCustomers", "firstName", "lastName", "postCode");
     }
 
+    public static Stream<Arguments> provideInvalidCustomers() {
+        return readArrayFromJson("invalidCustomers", "firstName", "lastName", "postCode");
+    }
+
     public static Stream<Arguments> provideOpenAccounts() {
         return readArrayFromJson("openAccounts", "customerName", "currency");
     }
 
+    public static Stream<Arguments> provideInvalidOpenAccounts() {
+        return readArrayFromJson("invalidOpenAccounts", "customerName", "currency");
+    }
+
     public static Stream<Arguments> provideSearchCustomers() {
-        return readArrayFromJson("searchCustomers", "firstName");
+        return readArrayFromJson("searchCustomers", "firstName", "lastName");
+    }
+
+    public static Stream<Arguments> provideCustomerNoAccount() {
+        return readArrayFromJson("customerNoAccount", "firstName", "lastName", "postCode");
     }
 
     public static Stream<Arguments> provideCustomerAuth() {
@@ -31,8 +43,22 @@ public class JsonDataUtils {
         return readArrayFromJson("customerDeposit", "userName", "amount", "expectedMessage");
     }
 
+    public static Stream<Arguments> provideCustomerDepositNegative() {
+        return readArrayFromJson("customerDepositNegative", "userName", "amount", "expectedMessage");
+    }
+
     public static Stream<Arguments> provideCustomerWithdrawal() {
         return readArrayFromJson("customerWithdrawal", "userName", "depositAmount", "withdrawalAmount",
+                "expectedMessage");
+    }
+
+    public static Stream<Arguments> provideCustomerWithdrawalNegative() {
+        return readArrayFromJson("customerWithdrawalNegative", "userName", "depositAmount", "withdrawalAmount",
+                "expectedMessage");
+    }
+
+    public static Stream<Arguments> provideCustomerWithdrawalMoreThanBalance() {
+        return readArrayFromJson("customerWithdrawalMoreThanBalance", "userName", "depositAmount", "withdrawalAmount",
                 "expectedMessage");
     }
 

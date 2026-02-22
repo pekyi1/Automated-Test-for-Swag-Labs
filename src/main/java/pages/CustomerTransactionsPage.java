@@ -44,4 +44,22 @@ public class CustomerTransactionsPage {
         }
         return transactionRows.size();
     }
+
+    public boolean isTransactionPresent(String expectedAmount, String expectedType) {
+        try {
+            java.lang.Thread.sleep(1000); // Wait for transactions to load
+        } catch (InterruptedException ignored) {
+        }
+        for (WebElement row : transactionRows) {
+            List<WebElement> cols = row.findElements(org.openqa.selenium.By.tagName("td"));
+            if (cols.size() >= 3) {
+                String amount = cols.get(1).getText();
+                String type = cols.get(2).getText();
+                if (amount.equals(expectedAmount) && type.equalsIgnoreCase(expectedType)) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

@@ -45,7 +45,11 @@ jobs:
             -v ${{ github.workspace }}/target:/app/target \
             -e APP_BASE_URL="${{ secrets.APP_BASE_URL }}" \
             xyz-bank-tests \
-            mvn -B -e test -Dheadless=true -DbaseUrl=${{ secrets.APP_BASE_URL }} -DtrimStackTrace=false
+            mvn -B -e test -Dheadless=true -DbaseUrl=${{ secrets.APP_BASE_URL }} -DtrimStackTrace=false || true
+
+      - name: Fix Target Directory Permissions
+        if: always()
+        run: sudo chown -R $USER:$USER target/
 
       # Human-friendly summary in GitHub Actions logs (non-technical)
       # NOTE: This step will show ❌ if there are failures/errors (by exiting 1),

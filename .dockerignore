@@ -1,0 +1,8 @@
+target/
+.git/
+.idea/
+.github/
+.allure/
+.mvn/
+.vscode/
+*.log

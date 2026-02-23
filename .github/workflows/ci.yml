@@ -33,8 +33,19 @@ jobs:
         run: |
           echo "Testing URL: ${{ secrets.APP_BASE_URL }}"
 
-      - name: Run Selenium tests (headless)
-        run: mvn -B -e test -Dheadless=true -DbaseUrl=${{ secrets.APP_BASE_URL }} -DtrimStackTrace=false #runs maven test in CI
+      - name: Build Docker Image
+        run: docker build -t xyz-bank-tests .
+
+      - name: Run Selenium tests in Docker
+        run: |
+          # Use docker to run the tests, mounting the host's target directory to container's /app/target
+          # This allows the host runner to access the generated Surefire/Allure reports.
+          docker run \
+            --name test-container \
+            -v ${{ github.workspace }}/target:/app/target \
+            -e APP_BASE_URL="${{ secrets.APP_BASE_URL }}" \
+            xyz-bank-tests \
+            mvn -B -e test -Dheadless=true -DbaseUrl=${{ secrets.APP_BASE_URL }} -DtrimStackTrace=false
 
       # Human-friendly summary in GitHub Actions logs (non-technical)
       # NOTE: This step will show ❌ if there are failures/errors (by exiting 1),

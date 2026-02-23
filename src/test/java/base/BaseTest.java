@@ -5,6 +5,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
 import org.junit.jupiter.api.extension.ExtendWith;
+import pages.LoginPage;
 import utils.ScreenshotListener;
 
 @ExtendWith(ScreenshotListener.class)

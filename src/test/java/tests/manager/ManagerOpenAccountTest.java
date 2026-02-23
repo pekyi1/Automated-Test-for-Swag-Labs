@@ -17,16 +17,16 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 
-@Epic("Bank Manager Portal")
-@Feature("Account Management")
+@Epic("Manager Portal")
+@Feature("User Story 1: Manage Customer Accounts")
 public class ManagerOpenAccountTest extends BaseTest {
 
     @ParameterizedTest
     @MethodSource("utils.JsonDataUtils#provideOpenAccounts")
     @Tag("regression")
-    @Story("Open New Account")
+    @Story("2. Creating Accounts")
     @Severity(SeverityLevel.CRITICAL)
-    @Description("This test navigates to the Manager portal, fills out the Open Account form for a customer, submits it, and verifies the success alert.")
+    @Description("Bank managers should be able to create accounts for customers who have been added to the system.")
     public void testOpenAccount(String customerName, String currency) {
         // Step 1: Login as Manager and navigate to Open Account tab
         ManagerPage managerPage = loginPage.clickBankManagerLogin();
@@ -48,9 +48,9 @@ public class ManagerOpenAccountTest extends BaseTest {
     @ParameterizedTest
     @MethodSource("utils.JsonDataUtils#provideInvalidOpenAccounts")
     @Tag("regression")
-    @Story("Open New Account Validation")
+    @Story("2. Creating Accounts")
     @Severity(SeverityLevel.CRITICAL)
-    @Description("This test verifies that the system prevents account creation if required fields are missing.")
+    @Description("Bank managers should be able to create accounts for customers who have been added to the system.")
     public void testOpenAccountValidation(String customerName, String currency) {
         // Step 1: Login as Manager and navigate to Open Account tab
         ManagerPage managerPage = loginPage.clickBankManagerLogin();

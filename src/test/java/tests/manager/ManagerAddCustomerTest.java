@@ -17,16 +17,16 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 
-@Epic("Bank Manager Portal")
-@Feature("Customer Management")
+@Epic("Manager Portal")
+@Feature("User Story 1: Manage Customer Accounts")
 public class ManagerAddCustomerTest extends BaseTest {
 
         @ParameterizedTest
         @MethodSource("utils.JsonDataUtils#provideNewCustomers")
         @Tag("regression")
-        @Story("Add New Customer")
+        @Story("1. Adding Customers")
         @Severity(SeverityLevel.CRITICAL)
-        @Description("This test navigates to the Manager portal, fills out the Add Customer form, submits it, and verifies the success alert.")
+        @Description("The system should allow bank managers to add new customers. Customer names should only contain alphabetic characters. Postal codes should only contain numeric characters.")
         public void testAddCustomer(String firstName, String lastName, String postCode) {
                 // Step 1: Login as Manager and navigate to Add Customer tab
                 ManagerPage managerPage = loginPage.clickBankManagerLogin();
@@ -51,9 +51,9 @@ public class ManagerAddCustomerTest extends BaseTest {
         @ParameterizedTest
         @MethodSource("utils.JsonDataUtils#provideInvalidCustomers")
         @Tag("regression")
-        @Story("Add New Customer Validation")
+        @Story("1. Adding Customers")
         @Severity(SeverityLevel.CRITICAL)
-        @Description("This test verifies that the system prevents customer creation with invalid data (e.g., numbers in names, special chars).")
+        @Description("The system should allow bank managers to add new customers. Customer names should only contain alphabetic characters. Postal codes should only contain numeric characters.")
         public void testAddCustomerValidation(String firstName, String lastName, String postCode) {
                 // Step 1: Login as Manager and navigate to Add Customer tab
                 ManagerPage managerPage = loginPage.clickBankManagerLogin();

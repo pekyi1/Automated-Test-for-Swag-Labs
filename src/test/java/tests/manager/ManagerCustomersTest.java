@@ -16,37 +16,37 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 
-@Epic("Bank Manager Portal")
-@Feature("Customer Management")
+@Epic("Manager Portal")
+@Feature("User Story 1: Manage Customer Accounts")
 public class ManagerCustomersTest extends BaseTest {
 
-    @ParameterizedTest
-    @MethodSource("utils.JsonDataUtils#provideSearchCustomers")
-    @Tag("regression")
-    @Story("Search Customers")
-    @Severity(SeverityLevel.NORMAL)
-    @Description("This test navigates to the Manager portal, goes to the Customers list, and verifies that a specific customer can be found via search.")
-    public void testSearchAndVerifyCustomer(String firstName, String lastName) {
-        // Step 1: Login as Manager and navigate to Customers tab
-        ManagerPage managerPage = loginPage.clickBankManagerLogin();
-        CustomersPage customersPage = managerPage.clickCustomersTab();
+        @ParameterizedTest
+        @MethodSource("utils.JsonDataUtils#provideSearchCustomers")
+        @Tag("regression")
+        @Story("1. Adding Customers")
+        @Severity(SeverityLevel.NORMAL)
+        @Description("The system should allow bank managers to add new customers and view them in the Customer List.")
+        public void testSearchAndVerifyCustomer(String firstName, String lastName) {
+                // Step 1: Login as Manager and navigate to Customers tab
+                ManagerPage managerPage = loginPage.clickBankManagerLogin();
+                CustomersPage customersPage = managerPage.clickCustomersTab();
 
-        // Step 2: Search for the customer using first name
-        customersPage.searchCustomer(firstName);
+                // Step 2: Search for the customer using first name
+                customersPage.searchCustomer(firstName);
 
-        // Step 3: Verify the customer appears in the list
-        assertAll("Search customer checks (First Name)",
-                () -> assertTrue(customersPage.isCustomerInList(firstName),
-                        "Expected customer " + firstName
-                                + " to be found in the customers list after searching by first name"));
+                // Step 3: Verify the customer appears in the list
+                assertAll("Search customer checks (First Name)",
+                                () -> assertTrue(customersPage.isCustomerInList(firstName),
+                                                "Expected customer " + firstName
+                                                                + " to be found in the customers list after searching by first name"));
 
-        // Step 4: Search for the customer using last name
-        customersPage.searchCustomer(lastName);
+                // Step 4: Search for the customer using last name
+                customersPage.searchCustomer(lastName);
 
-        // Step 5: Verify the customer appears in the list
-        assertAll("Search customer checks (Last Name)",
-                () -> assertTrue(customersPage.isCustomerInList(lastName),
-                        "Expected customer " + lastName
-                                + " to be found in the customers list after searching by last name"));
-    }
+                // Step 5: Verify the customer appears in the list
+                assertAll("Search customer checks (Last Name)",
+                                () -> assertTrue(customersPage.isCustomerInList(lastName),
+                                                "Expected customer " + lastName
+                                                                + " to be found in the customers list after searching by last name"));
+        }
 }

@@ -20,15 +20,15 @@ import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 
 @Epic("Customer Portal")
-@Feature("Transactions")
+@Feature("User Story 2: Manage Finances")
 public class CustomerDepositTest extends BaseTest {
 
         @ParameterizedTest
         @MethodSource("utils.JsonDataUtils#provideCustomerDeposit")
         @Tag("regression")
-        @Story("Deposit Funds")
+        @Story("2. Depositing Funds")
         @Severity(SeverityLevel.CRITICAL)
-        @Description("This test logs in a customer, deposits funds into their account, and verifies the success message.")
+        @Description("The system should allow customers to enter the deposit amount. Upon successful deposit, the system should update the account balance.")
         public void testCustomerDeposit(String userName, String amount, String expectedMessage) {
                 // Step 1: Login as customer
                 CustomerLoginPage customerLoginPage = loginPage.clickCustomerLogin();
@@ -59,9 +59,9 @@ public class CustomerDepositTest extends BaseTest {
         @ParameterizedTest
         @MethodSource("utils.JsonDataUtils#provideCustomerDepositNegative")
         @Tag("regression")
-        @Story("Deposit Funds")
+        @Story("2. Depositing Funds")
         @Severity(SeverityLevel.CRITICAL)
-        @Description("This test verifies that zero or negative deposits are rejected and balance remains unchanged.")
+        @Description("The system should validate the deposit amount (e.g., positive value).")
         public void testCustomerDepositNegative(String userName, String amount, String expectedMessage) {
                 // Step 1: Login as customer
                 CustomerLoginPage customerLoginPage = loginPage.clickCustomerLogin();

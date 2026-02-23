@@ -21,15 +21,15 @@ import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 
 @Epic("Customer Portal")
-@Feature("Transactions")
+@Feature("User Story 2: Manage Finances")
 public class CustomerWithdrawalTest extends BaseTest {
 
         @ParameterizedTest
         @MethodSource("utils.JsonDataUtils#provideCustomerWithdrawal")
         @Tag("regression")
-        @Story("Withdraw Funds")
+        @Story("3. Withdrawing Money")
         @Severity(SeverityLevel.CRITICAL)
-        @Description("This test logs in a customer, deposits initial funds, withdraws an amount, and verifies the success message.")
+        @Description("Customers should be able to withdraw money from their account. The system should allow customers to enter the withdrawal amount. Upon successful withdrawal, the system should update the account balance.")
         public void testCustomerWithdrawal(String userName, String depositAmount, String withdrawalAmount,
                         String expectedMessage) {
                 // Step 1: Login as customer
@@ -79,9 +79,9 @@ public class CustomerWithdrawalTest extends BaseTest {
         @ParameterizedTest
         @MethodSource("utils.JsonDataUtils#provideCustomerWithdrawalNegative")
         @Tag("regression")
-        @Story("Withdraw Funds")
+        @Story("3. Withdrawing Money")
         @Severity(SeverityLevel.CRITICAL)
-        @Description("This test verifies that zero or negative withdrawals are rejected and balance remains unchanged.")
+        @Description("The system should validate the withdrawal amount (e.g., positive value, sufficient balance)")
         public void testCustomerWithdrawalNegative(String userName, String depositAmount, String withdrawalAmount,
                         String expectedMessage) {
                 // Step 1: Login as customer
@@ -129,9 +129,9 @@ public class CustomerWithdrawalTest extends BaseTest {
         @ParameterizedTest
         @MethodSource("utils.JsonDataUtils#provideCustomerWithdrawalMoreThanBalance")
         @Tag("regression")
-        @Story("Withdraw Funds")
+        @Story("3. Withdrawing Money")
         @Severity(SeverityLevel.CRITICAL)
-        @Description("This test verifies that withdrawals exceeding the balance are rejected.")
+        @Description("The system should validate the withdrawal amount (e.g., positive value, sufficient balance)")
         public void testCustomerWithdrawalMoreThanBalance(String userName, String depositAmount,
                         String withdrawalAmount,
                         String expectedMessage) {

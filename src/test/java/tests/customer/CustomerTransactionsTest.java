@@ -20,15 +20,15 @@ import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 
 @Epic("Customer Portal")
-@Feature("Transactions History")
+@Feature("User Story 2: Manage Finances")
 public class CustomerTransactionsTest extends BaseTest {
 
         @ParameterizedTest
         @MethodSource("utils.JsonDataUtils#provideCustomerDeposit")
         @Tag("regression")
-        @Story("View Transaction History")
+        @Story("1. Viewing Transactions")
         @Severity(SeverityLevel.NORMAL)
-        @Description("This test verifies that after making a deposit, the transaction is recorded and visible in the history.")
+        @Description("Customers should be able to view a list of their recent transactions.")
         public void testCustomerTransactionHistory(String userName, String amount, String expectedMessage) {
                 // Step 1: Login as customer
                 CustomerLoginPage customerLoginPage = loginPage.clickCustomerLogin();

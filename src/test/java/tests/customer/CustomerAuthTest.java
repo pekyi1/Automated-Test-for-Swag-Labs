@@ -21,14 +21,14 @@ import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 
 @Epic("Customer Portal")
-@Feature("Authentication")
+@Feature("User Story 2: Manage Finances")
 public class CustomerAuthTest extends BaseTest {
 
         @Test
         @Tag("regression")
-        @Story("UI State Validation")
+        @Story("4. Transaction Security")
         @Severity(SeverityLevel.NORMAL)
-        @Description("This test verifies that the login button is hidden until a customer name is selected.")
+        @Description("Customers should not be able to reset or alter their transaction history (or access accounts until selected).")
         public void testLoginButtonIsHiddenInitially() {
                 CustomerLoginPage customerLoginPage = loginPage.clickCustomerLogin();
                 assertFalse(customerLoginPage.isLoginButtonVisible(),
@@ -38,9 +38,9 @@ public class CustomerAuthTest extends BaseTest {
         @ParameterizedTest
         @MethodSource("utils.JsonDataUtils#provideCustomerNoAccount")
         @Tag("regression")
-        @Story("UI State Validation")
+        @Story("4. Transaction Security")
         @Severity(SeverityLevel.NORMAL)
-        @Description("This test verifies that a customer without any accounts sees the 'Please open an account' message.")
+        @Description("Customers should not be able to access their accounts until an account has been created by a bank manager.")
         public void testCustomerNoAccountMessage(String firstName, String lastName, String postCode) {
                 // Step 1: Login as Manager and add the customer
                 ManagerPage managerPage = loginPage.clickBankManagerLogin();
@@ -67,9 +67,9 @@ public class CustomerAuthTest extends BaseTest {
         @ParameterizedTest
         @MethodSource("utils.JsonDataUtils#provideCustomerAuth")
         @Tag("regression")
-        @Story("Customer Login and Logout Flow")
+        @Story("4. Transaction Security")
         @Severity(SeverityLevel.CRITICAL)
-        @Description("This test verifies that a customer can successfully log into their account and log out successfully.")
+        @Description("Customers should be authenticated before they can view transactions, deposit funds, and withdraw money.")
         public void testCustomerLoginAndLogout(String userName) {
                 CustomerLoginPage customerLoginPage = loginPage.clickCustomerLogin();
 

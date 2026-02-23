@@ -4,11 +4,17 @@ import driver.DriverFactory;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
-import pages.LoginPage;
+import org.junit.jupiter.api.extension.ExtendWith;
+import utils.ScreenshotListener;
 
+@ExtendWith(ScreenshotListener.class)
 public abstract class BaseTest {
     protected WebDriver driver;
     protected LoginPage loginPage;
+
+    public WebDriver getDriver() {
+        return driver;
+    }
 
     @BeforeEach
     public void setUp() {

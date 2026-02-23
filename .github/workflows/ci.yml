@@ -50,7 +50,7 @@ jobs:
 
       - name: Fix Target Directory Permissions
         if: always()
-        run: sudo chown -R $USER:$USER target/
+        run: sudo chown -R $(id -u):$(id -g) target/
 
       # Human-friendly summary in GitHub Actions logs (non-technical)
       # NOTE: This step will show ❌ if there are failures/errors (by exiting 1),

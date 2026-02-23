@@ -2902,3 +2902,25 @@ INFO: TEST FINISHED: testCustomerTransactionHistory(String, String, String) [1] 
 Feb 23, 2026 9:55:35 AM utils.AllureLogListener afterTestStop
 INFO: ---------------------------------------------------
 
+Feb 23, 2026 10:09:06 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 23, 2026 10:09:06 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerTransactionHistory(String, String, String) [1] Harry Potter, 500, Deposit Successful
+Feb 23, 2026 10:09:06 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerTransactionHistory(String, String, String) [1] Harry Potter, 500, Deposit Successful
+Feb 23, 2026 10:09:26 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerTransactionHistory(String, String, String) [1] Harry Potter, 500, Deposit Successful -> Status: FAILED
+Feb 23, 2026 10:09:26 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Feb 23, 2026 10:15:16 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Feb 23, 2026 10:15:16 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCustomerTransactionHistory(String, String, String) [1] Harry Potter, 500, Deposit Successful
+Feb 23, 2026 10:15:16 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCustomerTransactionHistory(String, String, String) [1] Harry Potter, 500, Deposit Successful
+Feb 23, 2026 10:15:27 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCustomerTransactionHistory(String, String, String) [1] Harry Potter, 500, Deposit Successful -> Status: PASSED
+Feb 23, 2026 10:15:27 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+

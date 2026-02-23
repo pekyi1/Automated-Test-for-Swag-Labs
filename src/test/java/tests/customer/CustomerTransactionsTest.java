@@ -45,6 +45,11 @@ public class CustomerTransactionsTest extends BaseTest {
                                 "Expected successful deposit before checking history");
 
                 // Step 3: Navigate to transactions
+                try {
+                        Thread.sleep(2000); // Wait for the backend to process the deposit
+                } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                }
                 CustomerTransactionsPage transactionsPage = accountPage.clickTransactionsTab();
 
                 // Step 4: Verify the deposit transaction is present in history

@@ -16,6 +16,9 @@ public class DriverFactory {
         String headless = System.getProperty("headless", "false");
         if (Boolean.parseBoolean(headless)) {
             options.addArguments("--headless=new");
+            // Important for running Chrome in Docker/CI containers safely
+            options.addArguments("--no-sandbox");
+            options.addArguments("--disable-dev-shm-usage");
         }
 
         WebDriver driver = new ChromeDriver(options);

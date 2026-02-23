@@ -42,6 +42,17 @@ public class CustomerLoginPage {
         return this;
     }
 
+    public boolean isUserInDropdown(String userName) {
+        waitUtils.waitForVisibility(userSelectDropdown);
+        Select select = new Select(userSelectDropdown);
+        for (WebElement option : select.getOptions()) {
+            if (option.getText().equals(userName)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
     public boolean isLoginButtonVisible() {
         try {
             return loginBtn.isDisplayed();

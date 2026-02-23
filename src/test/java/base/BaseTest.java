@@ -2,6 +2,7 @@ package base;
 
 import driver.DriverFactory;
 import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -12,26 +13,25 @@ import utils.ScreenshotListener;
 public abstract class BaseTest {
     protected WebDriver driver;
     protected LoginPage loginPage;
+    private String url;
 
     public WebDriver getDriver() {
         return driver;
     }
 
+    protected String getUrl() {
+        url = System.getProperty("baseUrl",
+                System.getenv().getOrDefault("APP_BASE_URL",
+                        "https://www.globalsqa.com/angularJs-protractor/BankingProject/index.html"));
+        Assertions.assertNotNull(url);
+
+        return url;
+    }
+
     @BeforeEach
-    public void setUp() {
+    void setUp() {
         driver = DriverFactory.createDriver();
-
-        String baseUrl = System.getProperty("baseUrl");
-        if (baseUrl == null || baseUrl.isEmpty()) {
-            baseUrl = System.getenv("BASE_URL");
-        }
-        if (baseUrl == null || baseUrl.isEmpty()) {
-            // Default value from pom.xml should be loaded, but hardcoding fallback here
-            // just in case
-            baseUrl = "https://www.globalsqa.com/angularJs-protractor/BankingProject/index.html";
-        }
-
-        driver.get(baseUrl);
+        driver.get(getUrl());
         loginPage = new LoginPage(driver);
     }
 

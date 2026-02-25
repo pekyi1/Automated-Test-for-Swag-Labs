@@ -17,14 +17,15 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 
-@Epic("Manager Portal")
-@Feature("User Story 1: Manage Customer Accounts")
+@Epic("Digital Banking Application")
+@Feature("Bank Manager \u2014 Customer & Account Administration")
 public class ManagerAddCustomerTest extends BaseTest {
 
         @ParameterizedTest
         @MethodSource("utils.JsonDataUtils#provideNewCustomers")
         @Tag("regression")
-        @Story("1. Adding Customers")
+        @Tag("smoke")
+        @Story("US1: Add customers")
         @Severity(SeverityLevel.CRITICAL)
         @Description("The system should allow bank managers to add new customers. Customer names should only contain alphabetic characters. Postal codes should only contain numeric characters.")
         public void testAddCustomer(String firstName, String lastName, String postCode) {
@@ -51,7 +52,8 @@ public class ManagerAddCustomerTest extends BaseTest {
         @ParameterizedTest
         @MethodSource("utils.JsonDataUtils#provideInvalidCustomers")
         @Tag("regression")
-        @Story("1. Adding Customers")
+        @Tag("smoke")
+        @Story("US1: Add customers")
         @Severity(SeverityLevel.CRITICAL)
         @Description("The system should allow bank managers to add new customers. Customer names should only contain alphabetic characters. Postal codes should only contain numeric characters.")
         public void testAddCustomerValidation(String firstName, String lastName, String postCode) {

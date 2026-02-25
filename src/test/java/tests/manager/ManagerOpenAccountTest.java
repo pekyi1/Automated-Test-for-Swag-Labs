@@ -17,14 +17,15 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 
-@Epic("Manager Portal")
-@Feature("User Story 1: Manage Customer Accounts")
+@Epic("Digital Banking Application")
+@Feature("Bank Manager \u2014 Customer & Account Administration")
 public class ManagerOpenAccountTest extends BaseTest {
 
     @ParameterizedTest
     @MethodSource("utils.JsonDataUtils#provideOpenAccounts")
     @Tag("regression")
-    @Story("2. Creating Accounts")
+    @Tag("smoke")
+    @Story("US1: Create accounts")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Bank managers should be able to create accounts for customers who have been added to the system.")
     public void testOpenAccount(String customerName, String currency) {
@@ -48,7 +49,8 @@ public class ManagerOpenAccountTest extends BaseTest {
     @ParameterizedTest
     @MethodSource("utils.JsonDataUtils#provideInvalidOpenAccounts")
     @Tag("regression")
-    @Story("2. Creating Accounts")
+    @Tag("smoke")
+    @Story("US1: Create accounts")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Bank managers should be able to create accounts for customers who have been added to the system.")
     public void testOpenAccountValidation(String customerName, String currency) {

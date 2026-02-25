@@ -20,14 +20,15 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 
-@Epic("Customer Portal")
-@Feature("User Story 2: Manage Finances")
+@Epic("Digital Banking Application")
+@Feature("Customer \u2014 Transactions & Funds Management")
 public class CustomerWithdrawalTest extends BaseTest {
 
         @ParameterizedTest
         @MethodSource("utils.JsonDataUtils#provideCustomerWithdrawal")
         @Tag("regression")
-        @Story("3. Withdrawing Money")
+        @Tag("smoke")
+        @Story("US2: Withdraw money")
         @Severity(SeverityLevel.CRITICAL)
         @Description("Customers should be able to withdraw money from their account. The system should allow customers to enter the withdrawal amount. Upon successful withdrawal, the system should update the account balance.")
         public void testCustomerWithdrawal(String userName, String depositAmount, String withdrawalAmount,
@@ -79,7 +80,8 @@ public class CustomerWithdrawalTest extends BaseTest {
         @ParameterizedTest
         @MethodSource("utils.JsonDataUtils#provideCustomerWithdrawalNegative")
         @Tag("regression")
-        @Story("3. Withdrawing Money")
+        @Tag("smoke")
+        @Story("US2: Withdraw money")
         @Severity(SeverityLevel.CRITICAL)
         @Description("The system should validate the withdrawal amount (e.g., positive value, sufficient balance)")
         public void testCustomerWithdrawalNegative(String userName, String depositAmount, String withdrawalAmount,
@@ -129,7 +131,8 @@ public class CustomerWithdrawalTest extends BaseTest {
         @ParameterizedTest
         @MethodSource("utils.JsonDataUtils#provideCustomerWithdrawalMoreThanBalance")
         @Tag("regression")
-        @Story("3. Withdrawing Money")
+        @Tag("smoke")
+        @Story("US2: Withdraw money")
         @Severity(SeverityLevel.CRITICAL)
         @Description("The system should validate the withdrawal amount (e.g., positive value, sufficient balance)")
         public void testCustomerWithdrawalMoreThanBalance(String userName, String depositAmount,

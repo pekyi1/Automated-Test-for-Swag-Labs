@@ -20,13 +20,13 @@ import org.junit.jupiter.api.Test;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 
-@Epic("Customer Portal")
-@Feature("User Story 2: Manage Finances")
+@Epic("Digital Banking Application")
+@Feature("Customer \u2014 Transactions & Funds Management")
 public class CustomerAuthTest extends BaseTest {
 
         @Test
         @Tag("regression")
-        @Story("4. Transaction Security")
+        @Story("US2: Transaction security / Integrity (read-only history)")
         @Severity(SeverityLevel.NORMAL)
         @Description("Customers should not be able to reset or alter their transaction history (or access accounts until selected).")
         public void testLoginButtonIsHiddenInitially() {
@@ -38,7 +38,7 @@ public class CustomerAuthTest extends BaseTest {
         @ParameterizedTest
         @MethodSource("utils.JsonDataUtils#provideCustomerNoAccount")
         @Tag("regression")
-        @Story("4. Transaction Security")
+        @Story("US2: Transaction security / Integrity (read-only history)")
         @Severity(SeverityLevel.NORMAL)
         @Description("Customers should not be able to access their accounts until an account has been created by a bank manager.")
         public void testCustomerNoAccountMessage(String firstName, String lastName, String postCode) {
@@ -67,7 +67,8 @@ public class CustomerAuthTest extends BaseTest {
         @ParameterizedTest
         @MethodSource("utils.JsonDataUtils#provideCustomerAuth")
         @Tag("regression")
-        @Story("4. Transaction Security")
+        @Tag("smoke")
+        @Story("US2: Transaction security / Integrity (read-only history)")
         @Severity(SeverityLevel.CRITICAL)
         @Description("Customers should be authenticated before they can view transactions, deposit funds, and withdraw money.")
         public void testCustomerLoginAndLogout(String userName) {

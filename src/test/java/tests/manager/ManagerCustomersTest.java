@@ -16,14 +16,14 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 
-@Epic("Manager Portal")
-@Feature("User Story 1: Manage Customer Accounts")
+@Epic("Digital Banking Application")
+@Feature("Bank Manager \u2014 Customer & Account Administration")
 public class ManagerCustomersTest extends BaseTest {
 
         @ParameterizedTest
         @MethodSource("utils.JsonDataUtils#provideSearchCustomers")
         @Tag("regression")
-        @Story("1. Adding Customers")
+        @Story("US1: Add customers")
         @Severity(SeverityLevel.NORMAL)
         @Description("The system should allow bank managers to add new customers and view them in the Customer List.")
         public void testSearchAndVerifyCustomer(String firstName, String lastName) {

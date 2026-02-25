@@ -19,14 +19,15 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 
-@Epic("Customer Portal")
-@Feature("User Story 2: Manage Finances")
+@Epic("Digital Banking Application")
+@Feature("Customer \u2014 Transactions & Funds Management")
 public class CustomerTransactionsTest extends BaseTest {
 
         @ParameterizedTest
         @MethodSource("utils.JsonDataUtils#provideCustomerDeposit")
         @Tag("regression")
-        @Story("1. Viewing Transactions")
+        @Tag("smoke")
+        @Story("US2: View transactions")
         @Severity(SeverityLevel.NORMAL)
         @Description("Customers should be able to view a list of their recent transactions.")
         public void testCustomerTransactionHistory(String userName, String amount, String expectedMessage) {

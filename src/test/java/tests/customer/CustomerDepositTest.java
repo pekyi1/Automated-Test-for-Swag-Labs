@@ -19,14 +19,15 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 
-@Epic("Customer Portal")
-@Feature("User Story 2: Manage Finances")
+@Epic("Digital Banking Application")
+@Feature("Customer \u2014 Transactions & Funds Management")
 public class CustomerDepositTest extends BaseTest {
 
         @ParameterizedTest
         @MethodSource("utils.JsonDataUtils#provideCustomerDeposit")
         @Tag("regression")
-        @Story("2. Depositing Funds")
+        @Tag("smoke")
+        @Story("US2: Deposit funds")
         @Severity(SeverityLevel.CRITICAL)
         @Description("The system should allow customers to enter the deposit amount. Upon successful deposit, the system should update the account balance.")
         public void testCustomerDeposit(String userName, String amount, String expectedMessage) {
@@ -59,7 +60,8 @@ public class CustomerDepositTest extends BaseTest {
         @ParameterizedTest
         @MethodSource("utils.JsonDataUtils#provideCustomerDepositNegative")
         @Tag("regression")
-        @Story("2. Depositing Funds")
+        @Tag("smoke")
+        @Story("US2: Deposit funds")
         @Severity(SeverityLevel.CRITICAL)
         @Description("The system should validate the deposit amount (e.g., positive value).")
         public void testCustomerDepositNegative(String userName, String amount, String expectedMessage) {

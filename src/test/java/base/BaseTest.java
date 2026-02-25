@@ -15,6 +15,7 @@ public abstract class BaseTest {
     protected LoginPage loginPage;
     private String url;
 
+    //used by screenshot listener
     public WebDriver getDriver() {
         return driver;
     }
@@ -23,7 +24,7 @@ public abstract class BaseTest {
         url = System.getProperty("baseUrl",
                 System.getenv().getOrDefault("APP_BASE_URL",
                         "https://www.globalsqa.com/angularJs-protractor/BankingProject/index.html"));
-        Assertions.assertNotNull(url);
+        Assertions.assertNotNull(url); //Tests fail fast if configuration is broken
 
         return url;
     }

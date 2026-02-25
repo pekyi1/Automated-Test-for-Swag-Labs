@@ -15,7 +15,7 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 
-@Epic("XYZ Bank Navigation")
+@Epic("Digital Banking Application")
 @Feature("Routing")
 public class XYZNavigationTest extends BaseTest {
 

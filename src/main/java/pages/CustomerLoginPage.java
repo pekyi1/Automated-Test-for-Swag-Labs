@@ -35,6 +35,18 @@ public class CustomerLoginPage {
         }
     }
 
+    public boolean isUserDropdownVisibleFast() {
+        try {
+            driver.manage().timeouts().implicitlyWait(java.time.Duration.ofMillis(50));
+            boolean isVisible = !driver.findElements(org.openqa.selenium.By.id("userSelect")).isEmpty();
+            driver.manage().timeouts().implicitlyWait(java.time.Duration.ofSeconds(2));
+            return isVisible;
+        } catch (Exception e) {
+            driver.manage().timeouts().implicitlyWait(java.time.Duration.ofSeconds(2));
+            return false;
+        }
+    }
+
     public CustomerLoginPage selectUser(String userName) {
         waitUtils.waitForVisibility(userSelectDropdown);
         Select select = new Select(userSelectDropdown);
@@ -43,6 +55,9 @@ public class CustomerLoginPage {
     }
 
     public boolean isUserInDropdown(String userName) {
+        if (!isUserDropdownVisibleFast()) {
+            return false;
+        }
         waitUtils.waitForVisibility(userSelectDropdown);
         Select select = new Select(userSelectDropdown);
         for (WebElement option : select.getOptions()) {
@@ -55,8 +70,16 @@ public class CustomerLoginPage {
 
     public boolean isLoginButtonVisible() {
         try {
-            return loginBtn.isDisplayed();
+            // Find elements by the same CSS selector. If list is empty, it doesn't exist.
+            // This briefly relies on the 2s implicit wait still, but we can temporarily
+            // override it
+            driver.manage().timeouts().implicitlyWait(java.time.Duration.ofMillis(50));
+            boolean isVisible = !driver
+                    .findElements(org.openqa.selenium.By.cssSelector("button.btn-default[type='submit']")).isEmpty();
+            driver.manage().timeouts().implicitlyWait(java.time.Duration.ofSeconds(2));
+            return isVisible;
         } catch (Exception e) {
+            driver.manage().timeouts().implicitlyWait(java.time.Duration.ofSeconds(2));
             return false;
         }
     }

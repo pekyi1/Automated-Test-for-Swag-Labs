@@ -19,14 +19,14 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 
-@Epic("Manager Portal")
-@Feature("User Story 1: Manage Customer Accounts")
+@Epic("Digital Banking Application")
+@Feature("Bank Manager \u2014 Customer & Account Administration")
 public class ManagerDeleteCustomerTest extends BaseTest {
 
     @ParameterizedTest
     @MethodSource("utils.JsonDataUtils#provideNewCustomers")
     @Tag("regression")
-    @Story("3. Deleting Accounts")
+    @Story("US1: Delete accounts")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Bank managers should be able to delete customer accounts. When an account is deleted, the associated customer should no longer be able to access the account.")
     public void testDeleteCustomer(String firstName, String lastName, String postCode) {

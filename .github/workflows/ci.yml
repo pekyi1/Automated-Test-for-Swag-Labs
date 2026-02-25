@@ -6,7 +6,6 @@ on:
       - main
       - develop
       - 'fix/**'
-      - 'test/**'
       - 'feature/**'
   pull_request:
     branches:
@@ -300,17 +299,16 @@ jobs:
         if: always()
         run: mvn allure:report
 
+      - name: Upload Allure Report as Artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-report-web
+          path: target/site/allure-maven-plugin/
+
       - name: Prepare History for Next Run
         if: always()
         run: |
           mkdir -p allure-report-with-history
           cp -r target/site/allure-maven-plugin/* allure-report-with-history/
           cp -r target/site/allure-maven-plugin/history allure-report-with-history/ || true
-
-      - name: Publish Allure Report to GitHub Pages
-        if: always()
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: allure-report-with-history

@@ -4,10 +4,10 @@ import base.BaseTest;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
-import pages.AddCustomerPage;
-import pages.CustomerLoginPage;
-import pages.CustomersPage;
-import pages.ManagerPage;
+import pages.manager.AddCustomerPage;
+import pages.customer.CustomerLoginPage;
+import pages.manager.CustomersPage;
+import pages.manager.ManagerPage;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertFalse;

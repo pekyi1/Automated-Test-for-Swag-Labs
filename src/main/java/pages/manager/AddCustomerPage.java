@@ -1,4 +1,4 @@
-package pages;
+package pages.manager;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

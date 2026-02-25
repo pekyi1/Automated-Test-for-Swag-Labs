@@ -1,5 +1,6 @@
-package pages;
+package pages.manager;
 
+import pages.LoginPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

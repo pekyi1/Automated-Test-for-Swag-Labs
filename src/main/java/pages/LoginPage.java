@@ -1,4 +1,6 @@
 package pages;
+import pages.customer.CustomerLoginPage;
+import pages.manager.ManagerPage;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

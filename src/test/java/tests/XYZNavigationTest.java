@@ -3,8 +3,8 @@ package tests;
 import base.BaseTest;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
-import pages.CustomerLoginPage;
-import pages.ManagerPage;
+import pages.customer.CustomerLoginPage;
+import pages.manager.ManagerPage;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertAll;

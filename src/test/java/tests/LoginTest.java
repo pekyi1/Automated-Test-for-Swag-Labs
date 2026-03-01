@@ -1,4 +1,5 @@
-﻿package tests;
+package tests;
+
 import base.BaseTest;
 import io.qameta.allure.Description;
 import io.qameta.allure.Feature;
@@ -22,6 +23,31 @@ public class LoginTest extends BaseTest {
     @Description("Verify invalid login shows error message")
     public void testInvalidLogin() {
         loginPage.login("invalid_user", "wrong_password");
-        Assertions.assertTrue(loginPage.getErrorMessage().contains("Username and password do not match any user in this service"));
+        Assertions.assertTrue(
+                loginPage.getErrorMessage().contains("Username and password do not match any user in this service"));
+    }
+
+    @Test
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Verify locked out user receives correct error message")
+    public void testLockedOutUserLogin() {
+        loginPage.login("locked_out_user", "secret_sauce");
+        Assertions.assertTrue(loginPage.getErrorMessage().contains("Sorry, this user has been locked out."));
+    }
+
+    @Test
+    @Severity(SeverityLevel.MINOR)
+    @Description("Verify empty password shows required error")
+    public void testEmptyPassword() {
+        loginPage.login("standard_user", "");
+        Assertions.assertTrue(loginPage.getErrorMessage().contains("Password is required"));
+    }
+
+    @Test
+    @Severity(SeverityLevel.MINOR)
+    @Description("Verify empty username shows required error")
+    public void testEmptyUsername() {
+        loginPage.login("", "secret_sauce");
+        Assertions.assertTrue(loginPage.getErrorMessage().contains("Username is required"));
     }
 }

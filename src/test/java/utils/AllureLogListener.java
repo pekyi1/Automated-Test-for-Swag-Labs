@@ -1,4 +1,4 @@
-﻿package utils;
+package utils;
 
 import io.qameta.allure.listener.TestLifecycleListener;
 import io.qameta.allure.model.TestResult;

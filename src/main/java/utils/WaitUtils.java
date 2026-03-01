@@ -19,6 +19,11 @@ public class WaitUtils {
     }
 
     public void safeClick(WebElement element) {
-        waitForVisibility(element).click();
+        wait.until(ExpectedConditions.elementToBeClickable(element));
+        try {
+            Thread.sleep(250);
+        } catch (Exception e) {
+        }
+        element.click();
     }
 }

@@ -1,4 +1,5 @@
-﻿package tests;
+package tests;
+
 import base.BaseTest;
 import io.qameta.allure.Description;
 import io.qameta.allure.Feature;
@@ -15,14 +16,16 @@ public class SwagLabsTest extends BaseTest {
     public void testLoginCartCheckoutFlow() {
         loginPage.login("standard_user", "secret_sauce");
         Assertions.assertTrue(inventoryPage.isOnInventoryPage(), "User should be on the inventory page after login");
-        
-        inventoryPage.addToCart("Sauce Labs Backpack");
-        inventoryPage.addToCart("Sauce Labs Bike Light");
+
+        inventoryPage.addBackpackToCart();
+        inventoryPage.addBikeLightToCart();
         inventoryPage.openCart();
+
         cartPage.checkout();
         checkoutStepOnePage.enterInformation("John", "Doe", "12345");
         checkoutStepTwoPage.finishCheckout();
-        
-        Assertions.assertEquals("Thank you for your order!", checkoutCompletePage.getThankYouMessage(), "Order completion message mismatch");
+
+        Assertions.assertEquals("Thank you for your order!", checkoutCompletePage.getThankYouMessage(),
+                "Order completion message mismatch");
     }
 }

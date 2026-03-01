@@ -1,31 +1,28 @@
-package base;
-
+﻿package base;
 import driver.DriverFactory;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
 import org.junit.jupiter.api.extension.ExtendWith;
-import pages.LoginPage;
+import pages.*;
 import utils.ScreenshotListener;
 
 @ExtendWith(ScreenshotListener.class)
 public abstract class BaseTest {
     protected WebDriver driver;
     protected LoginPage loginPage;
-    private String url;
+    protected InventoryPage inventoryPage;
+    protected CartPage cartPage;
+    protected CheckoutStepOnePage checkoutStepOnePage;
+    protected CheckoutStepTwoPage checkoutStepTwoPage;
+    protected CheckoutCompletePage checkoutCompletePage;
 
-    //used by screenshot listener
-    public WebDriver getDriver() {
-        return driver;
-    }
+    public WebDriver getDriver() { return driver; }
 
     protected String getUrl() {
-        url = System.getProperty("baseUrl",
-                System.getenv().getOrDefault("APP_BASE_URL",
-                        "https://www.globalsqa.com/angularJs-protractor/BankingProject/index.html"));
-        Assertions.assertNotNull(url); //Tests fail fast if configuration is broken
-
+        String url = System.getProperty("baseUrl", System.getenv().getOrDefault("APP_BASE_URL", "https://www.saucedemo.com/"));
+        Assertions.assertNotNull(url);
         return url;
     }
 
@@ -34,12 +31,13 @@ public abstract class BaseTest {
         driver = DriverFactory.createDriver();
         driver.get(getUrl());
         loginPage = new LoginPage(driver);
+        inventoryPage = new InventoryPage(driver);
+        cartPage = new CartPage(driver);
+        checkoutStepOnePage = new CheckoutStepOnePage(driver);
+        checkoutStepTwoPage = new CheckoutStepTwoPage(driver);
+        checkoutCompletePage = new CheckoutCompletePage(driver);
     }
 
     @AfterEach
-    public void tearDown() {
-        if (driver != null) {
-            driver.quit();
-        }
-    }
+    public void tearDown() { if (driver != null) { driver.quit(); } }
 }

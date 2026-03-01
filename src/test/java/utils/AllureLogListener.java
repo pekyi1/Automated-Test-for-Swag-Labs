@@ -1,4 +1,4 @@
-package utils;
+﻿package utils;
 
 import io.qameta.allure.listener.TestLifecycleListener;
 import io.qameta.allure.model.TestResult;
@@ -16,7 +16,7 @@ public class AllureLogListener implements TestLifecycleListener {
     static {
         try {
             // Configure the logger to write to a file in the project root directory
-            FileHandler fileHandler = new FileHandler("xyz-bank-tests.log", true);
+            FileHandler fileHandler = new FileHandler("swag-labs-tests.log", true);
             fileHandler.setFormatter(new SimpleFormatter());
             logger.addHandler(fileHandler);
             logger.setLevel(Level.INFO);
@@ -43,3 +43,4 @@ public class AllureLogListener implements TestLifecycleListener {
         logger.info("---------------------------------------------------\n");
     }
 }
+

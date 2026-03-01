@@ -1,4 +1,4 @@
-name: CI - Selenium UI Tests
+﻿name: CI - Selenium UI Tests
 
 on:
   push:
@@ -13,7 +13,7 @@ on:
       - develop
 
 jobs:
-  ui-tests-xyz-bank:
+  ui-tests-swag-labs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -34,7 +34,7 @@ jobs:
           echo "Testing URL: ${{ secrets.APP_BASE_URL }}"
 
       - name: Build Docker Image
-        run: docker build -t xyz-bank-tests .
+        run: docker build -t swag-labs-tests .
 
       - name: Run Selenium tests in Docker
         run: |
@@ -44,7 +44,7 @@ jobs:
             --name test-container \
             -v ${{ github.workspace }}/target:/app/target \
             -e APP_BASE_URL="${{ secrets.APP_BASE_URL }}" \
-            xyz-bank-tests \
+            swag-labs-tests \
             mvn -B -e test -Dheadless=true -DbaseUrl=${{ secrets.APP_BASE_URL }} -DtrimStackTrace=false || true
 
       - name: Fix Target Directory Permissions
@@ -52,7 +52,7 @@ jobs:
         run: sudo chown -R $(id -u):$(id -g) target/
 
       # Human-friendly summary in GitHub Actions logs (non-technical)
-      # NOTE: This step will show ❌ if there are failures/errors (by exiting 1),
+      # NOTE: This step will show âŒ if there are failures/errors (by exiting 1),
       # but it still prints the readable summary first.
       - name: Test summary (Readable logs)
         if: always()
@@ -65,7 +65,7 @@ jobs:
           failed_tests = []
 
           if not files:
-            print("❌ No Surefire XML reports found in target/surefire-reports.")
+            print("âŒ No Surefire XML reports found in target/surefire-reports.")
             print("This usually means tests did not run, or Maven failed before producing reports.")
             sys.exit(1)
 
@@ -89,7 +89,7 @@ jobs:
                 failed_tests.append((name, "ERROR", msg))
 
           passed = total - failed - errors - skipped
-          status_icon = "✅" if (failed == 0 and errors == 0) else "❌"
+          status_icon = "âœ…" if (failed == 0 and errors == 0) else "âŒ"
 
           print("==================================")
           print(f"SELENIUM UI TEST SUMMARY (Readable) {status_icon}")
@@ -104,10 +104,10 @@ jobs:
           print("-------------------")
 
           if not failed_tests:
-            print("- None (all tests passed ✅)")
+            print("- None (all tests passed âœ…)")
           else:
             for (name, kind, msg) in failed_tests:
-              icon = "❌" if kind == "FAIL" else "⚠️"
+              icon = "âŒ" if kind == "FAIL" else "âš ï¸"
               
               # Clean up message for "reasons"
               clean_msg = msg.replace("failures)", "reasons)")
@@ -124,7 +124,7 @@ jobs:
 
           print("==================================")
 
-          # Make this STEP show ❌ when tests failed
+          # Make this STEP show âŒ when tests failed
           if failed > 0 or errors > 0:
             sys.exit(1)
           PY
@@ -149,7 +149,7 @@ jobs:
 
           if not files:
             text = (
-              "*Selenium UI Tests: FAIL ❌*\n"
+              "*Selenium UI Tests: FAIL âŒ*\n"
               "I could not find test reports. This usually means tests did not run or the build stopped early.\n\n"
               f"Repo: `{repo}` | Branch: `{branch}`\n"
               f"Run details: {run_url}"
@@ -196,7 +196,7 @@ jobs:
                 failed_items.append((name, "ERROR", short))
 
           passed = total - failed - errors - skipped
-          status = "PASS ✅" if (failed == 0 and errors == 0) else "FAIL ❌"
+          status = "PASS âœ…" if (failed == 0 and errors == 0) else "FAIL âŒ"
 
           lines = []
           lines.append(f"*Selenium UI Tests: {status}*")
@@ -207,12 +207,12 @@ jobs:
             lines.append("*Failed test(s) and why:*")
             MAX_SHOW = 12
             for (name, kind, reason) in failed_items[:MAX_SHOW]:
-              lines.append(f"• *{name}*")
+              lines.append(f"â€¢ *{name}*")
               lines.append(f"  {reason}") 
             if len(failed_items) > MAX_SHOW:
-              lines.append(f"• …and {len(failed_items) - MAX_SHOW} more failed/error tests (see run for full list)")
+              lines.append(f"â€¢ â€¦and {len(failed_items) - MAX_SHOW} more failed/error tests (see run for full list)")
           else:
-            lines.append("✅ No failed tests.")
+            lines.append("âœ… No failed tests.")
 
           lines.append("")
           lines.append(f"Repo: `{repo}` | Branch: `{branch}`")
@@ -252,7 +252,7 @@ jobs:
           server_port: ${{ secrets.SMTP_PORT }}
           username: ${{ secrets.SMTP_USERNAME }}
           password: ${{ secrets.SMTP_PASSWORD }}
-          subject: Selenium UI Tests - ${{ job.status == 'success' && 'PASS ✅' || 'FAIL ❌' }} - ${{ github.repository }} - ${{ github.ref_name }}
+          subject: Selenium UI Tests - ${{ job.status == 'success' && 'PASS âœ…' || 'FAIL âŒ' }} - ${{ github.repository }} - ${{ github.ref_name }}
           to: ${{ secrets.EMAIL_TO }}
           from: ${{ secrets.SMTP_USERNAME }}
           secure: false
@@ -312,3 +312,4 @@ jobs:
           mkdir -p allure-report-with-history
           cp -r target/site/allure-maven-plugin/* allure-report-with-history/
           cp -r target/site/allure-maven-plugin/history allure-report-with-history/ || true
+

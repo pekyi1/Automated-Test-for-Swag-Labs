@@ -27,11 +27,10 @@ public class WaitUtils {
         } catch (Exception e) {
         }
         try {
-            element.click();
-        } catch (Exception e) {
-            // fallback to JS execution if standard click gets intercepted
             org.openqa.selenium.JavascriptExecutor jse = (org.openqa.selenium.JavascriptExecutor) this.driver;
             jse.executeScript("arguments[0].click();", element);
+        } catch (Exception e) {
+            element.click();
         }
     }
 }

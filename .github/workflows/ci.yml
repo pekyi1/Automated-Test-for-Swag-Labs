@@ -313,3 +313,21 @@ jobs:
           cp -r target/site/allure-maven-plugin/* allure-report-with-history/
           cp -r target/site/allure-maven-plugin/history allure-report-with-history/ || true
 
+      - name: Deploy Allure Report to GitHub Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: allure-report-with-history
+          keep_files: false
+
+      - name: Print GitHub Pages Dashboard Link
+        if: always()
+        run: |
+          echo "================================================================"
+          echo "✅ ALLURE REPORT DEPLOYED TO GITHUB PAGES!"
+          echo "👉 VIEW YOUR ONLINE DASHBOARD HERE:"
+          echo "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+          echo "================================================================"
+

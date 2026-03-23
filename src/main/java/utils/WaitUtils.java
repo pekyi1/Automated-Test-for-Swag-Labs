@@ -8,9 +8,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class WaitUtils {
+    private WebDriver driver;
     private WebDriverWait wait;
 
     public WaitUtils(WebDriver driver) {
+        this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(20));
     }
 
@@ -24,6 +26,12 @@ public class WaitUtils {
             Thread.sleep(250);
         } catch (Exception e) {
         }
-        element.click();
+        try {
+            element.click();
+        } catch (Exception e) {
+            // fallback to JS execution if standard click gets intercepted
+            org.openqa.selenium.JavascriptExecutor jse = (org.openqa.selenium.JavascriptExecutor) this.driver;
+            jse.executeScript("arguments[0].click();", element);
+        }
     }
 }

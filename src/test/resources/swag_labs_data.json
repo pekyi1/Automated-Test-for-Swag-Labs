@@ -1,0 +1,88 @@
+{
+  "loginData": {
+    "validUser": {
+      "username": "standard_user",
+      "password": "secret_sauce"
+    },
+    "lockedOutUser": {
+      "username": "locked_out_user",
+      "password": "secret_sauce",
+      "expectedError": "Sorry, this user has been locked out."
+    },
+    "invalidUser": {
+      "username": "invalid_user",
+      "password": "wrong_password",
+      "expectedError": "Username and password do not match any user in this service"
+    },
+    "emptyPassword": {
+      "username": "standard_user",
+      "password": "",
+      "expectedError": "Password is required"
+    },
+    "emptyUsername": {
+      "username": "",
+      "password": "secret_sauce",
+      "expectedError": "Username is required"
+    }
+  },
+  "parameterizedLogin": [
+    {
+      "username": "invalid_user",
+      "password": "wrong_password",
+      "expectedError": "Username and password do not match any user in this service"
+    },
+    {
+      "username": "locked_out_user",
+      "password": "secret_sauce",
+      "expectedError": "Sorry, this user has been locked out."
+    },
+    {
+      "username": "standard_user",
+      "password": "",
+      "expectedError": "Password is required"
+    },
+    {
+      "username": "",
+      "password": "secret_sauce",
+      "expectedError": "Username is required"
+    }
+  ],
+  "checkoutData": {
+    "validCustomer": {
+      "firstName": "Frank",
+      "lastName": "Ocean",
+      "zipCode": "12345"
+    },
+    "missingFirstName": {
+      "firstName": "",
+      "lastName": "Ocean",
+      "zipCode": "12345",
+      "expectedError": "First Name is required"
+    },
+    "anotherValidCustomer": {
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "zipCode": "54321"
+    }
+  },
+  "parameterizedCheckout": [
+    {
+      "firstName": "",
+      "lastName": "Ocean",
+      "zipCode": "12345",
+      "expectedError": "First Name is required"
+    },
+    {
+      "firstName": "Frank",
+      "lastName": "",
+      "zipCode": "12345",
+      "expectedError": "Last Name is required"
+    },
+    {
+      "firstName": "Frank",
+      "lastName": "Ocean",
+      "zipCode": "",
+      "expectedError": "Postal Code is required"
+    }
+  ]
+}

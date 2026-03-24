@@ -11,63 +11,39 @@ import java.util.stream.Stream;
 
 public class JsonDataUtils {
 
-    public static Stream<Arguments> provideNewCustomers() {
-        return readArrayFromJson("newCustomers", "firstName", "lastName", "postCode");
+    private static final String SWAG_LABS_DATA_FILE = "swag_labs_data.json";
+
+    public static JsonNode getSwagLabsData() {
+        return readJson(SWAG_LABS_DATA_FILE);
     }
 
-    public static Stream<Arguments> provideInvalidCustomers() {
-        return readArrayFromJson("invalidCustomers", "firstName", "lastName", "postCode");
+    public static Stream<Arguments> provideParameterizedLogin() {
+        return readArrayFromJson(SWAG_LABS_DATA_FILE, "parameterizedLogin", "username", "password", "expectedError");
     }
 
-    public static Stream<Arguments> provideOpenAccounts() {
-        return readArrayFromJson("openAccounts", "customerName", "currency");
+    public static Stream<Arguments> provideParameterizedCheckout() {
+        return readArrayFromJson(SWAG_LABS_DATA_FILE, "parameterizedCheckout", "firstName", "lastName", "zipCode",
+                "expectedError");
     }
 
-    public static Stream<Arguments> provideInvalidOpenAccounts() {
-        return readArrayFromJson("invalidOpenAccounts", "customerName", "currency");
+    public static JsonNode readJson(String fileName) {
+        ObjectMapper mapper = new ObjectMapper();
+        try (InputStream is = JsonDataUtils.class.getClassLoader().getResourceAsStream(fileName)) {
+            if (is == null) {
+                throw new RuntimeException("Could not find " + fileName + " in classpath");
+            }
+            return mapper.readTree(is);
+        } catch (Exception e) {
+            throw new RuntimeException("Failed to read JSON from file: " + fileName, e);
+        }
     }
 
-    public static Stream<Arguments> provideSearchCustomers() {
-        return readArrayFromJson("searchCustomers", "firstName", "lastName");
-    }
-
-    public static Stream<Arguments> provideCustomerNoAccount() {
-        return readArrayFromJson("customerNoAccount", "firstName", "lastName", "postCode");
-    }
-
-    public static Stream<Arguments> provideCustomerAuth() {
-        return readArrayFromJson("customerAuth", "userName");
-    }
-
-    public static Stream<Arguments> provideCustomerDeposit() {
-        return readArrayFromJson("customerDeposit", "userName", "amount", "expectedMessage");
-    }
-
-    public static Stream<Arguments> provideCustomerDepositNegative() {
-        return readArrayFromJson("customerDepositNegative", "userName", "amount", "expectedMessage");
-    }
-
-    public static Stream<Arguments> provideCustomerWithdrawal() {
-        return readArrayFromJson("customerWithdrawal", "userName", "depositAmount", "withdrawalAmount",
-                "expectedMessage");
-    }
-
-    public static Stream<Arguments> provideCustomerWithdrawalNegative() {
-        return readArrayFromJson("customerWithdrawalNegative", "userName", "depositAmount", "withdrawalAmount",
-                "expectedMessage");
-    }
-
-    public static Stream<Arguments> provideCustomerWithdrawalMoreThanBalance() {
-        return readArrayFromJson("customerWithdrawalMoreThanBalance", "userName", "depositAmount", "withdrawalAmount",
-                "expectedMessage");
-    }
-
-    private static Stream<Arguments> readArrayFromJson(String arrayName, String... properties) {
+    private static Stream<Arguments> readArrayFromJson(String fileName, String arrayName, String... properties) {
         ObjectMapper mapper = new ObjectMapper();
         List<Arguments> arguments = new ArrayList<>();
-        try (InputStream is = JsonDataUtils.class.getClassLoader().getResourceAsStream("xyz_bank_data.json")) {
+        try (InputStream is = JsonDataUtils.class.getClassLoader().getResourceAsStream(fileName)) {
             if (is == null) {
-                throw new RuntimeException("Could not find xyz_bank_data.json in classpath");
+                throw new RuntimeException("Could not find " + fileName + " in classpath");
             }
             JsonNode rootNode = mapper.readTree(is);
             JsonNode arrayNode = rootNode.get(arrayName);
@@ -75,13 +51,15 @@ public class JsonDataUtils {
                 for (JsonNode node : arrayNode) {
                     Object[] args = new Object[properties.length];
                     for (int i = 0; i < properties.length; i++) {
-                        args[i] = node.get(properties[i]).asText();
+                        JsonNode propertyNode = node.get(properties[i]);
+                        args[i] = (propertyNode != null) ? propertyNode.asText() : "";
                     }
                     arguments.add(Arguments.of(args));
                 }
             }
         } catch (Exception e) {
-            throw new RuntimeException("Failed to read JSON test data for key: " + arrayName, e);
+            throw new RuntimeException("Failed to read JSON test data for key: " + arrayName + " in file: " + fileName,
+                    e);
         }
         return arguments.stream();
     }

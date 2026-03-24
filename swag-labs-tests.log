@@ -867,3 +867,1252 @@ INFO: TEST FINISHED: testContinueShoppingNavigation() -> Status: PASSED
 Mar 01, 2026 9:50:58 PM utils.AllureLogListener afterTestStop
 INFO: ---------------------------------------------------
 
+Mar 24, 2026 8:31:25 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 8:31:25 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCartContainsAddedItems()
+Mar 24, 2026 8:31:25 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCartContainsAddedItems()
+Mar 24, 2026 8:32:11 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCartContainsAddedItems() -> Status: PASSED
+Mar 24, 2026 8:32:11 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 8:32:11 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 8:32:11 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testRemoveItemFromCart()
+Mar 24, 2026 8:32:11 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testRemoveItemFromCart()
+Mar 24, 2026 8:32:18 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testRemoveItemFromCart() -> Status: PASSED
+Mar 24, 2026 8:32:18 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 8:32:18 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 8:32:18 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testContinueShoppingNavigation()
+Mar 24, 2026 8:32:18 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testContinueShoppingNavigation()
+Mar 24, 2026 8:32:24 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testContinueShoppingNavigation() -> Status: PASSED
+Mar 24, 2026 8:32:24 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 8:46:49 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 8:46:49 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testFinishCheckoutFlow()
+Mar 24, 2026 8:46:49 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testFinishCheckoutFlow()
+Mar 24, 2026 8:47:02 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 8:47:02 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testFinishCheckoutFlow()
+Mar 24, 2026 8:47:02 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testFinishCheckoutFlow()
+Mar 24, 2026 8:47:29 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testFinishCheckoutFlow() -> Status: BROKEN
+Mar 24, 2026 8:47:29 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 8:47:30 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 8:47:30 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCheckoutStepTwoSummary()
+Mar 24, 2026 8:47:30 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCheckoutStepTwoSummary()
+Mar 24, 2026 8:47:37 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCheckoutStepTwoSummary() -> Status: PASSED
+Mar 24, 2026 8:47:37 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 8:47:37 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 8:47:37 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testEmptyFirstNameCheckout()
+Mar 24, 2026 8:47:37 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testEmptyFirstNameCheckout()
+Mar 24, 2026 8:47:45 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testEmptyFirstNameCheckout() -> Status: PASSED
+Mar 24, 2026 8:47:45 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 8:47:45 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 8:47:45 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testValidCheckoutStepOne()
+Mar 24, 2026 8:47:45 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testValidCheckoutStepOne()
+Mar 24, 2026 8:47:52 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testValidCheckoutStepOne() -> Status: PASSED
+Mar 24, 2026 8:47:52 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 8:47:52 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 8:47:52 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testBackToProductsNavigation()
+Mar 24, 2026 8:47:52 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testBackToProductsNavigation()
+Mar 24, 2026 8:47:59 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testBackToProductsNavigation() -> Status: PASSED
+Mar 24, 2026 8:47:59 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 8:47:59 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 8:47:59 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCancelCheckoutStepOne()
+Mar 24, 2026 8:47:59 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCancelCheckoutStepOne()
+Mar 24, 2026 8:48:05 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCancelCheckoutStepOne() -> Status: PASSED
+Mar 24, 2026 8:48:05 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 8:52:03 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 8:52:03 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testFinishCheckoutFlow()
+Mar 24, 2026 8:52:03 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testFinishCheckoutFlow()
+Mar 24, 2026 8:52:11 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testFinishCheckoutFlow() -> Status: PASSED
+Mar 24, 2026 8:52:11 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 8:54:51 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 8:54:51 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testFinishCheckoutFlow()
+Mar 24, 2026 8:54:51 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testFinishCheckoutFlow()
+Mar 24, 2026 8:54:59 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testFinishCheckoutFlow() -> Status: PASSED
+Mar 24, 2026 8:54:59 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 8:54:59 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 8:54:59 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCheckoutStepTwoSummary()
+Mar 24, 2026 8:54:59 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCheckoutStepTwoSummary()
+Mar 24, 2026 8:55:07 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCheckoutStepTwoSummary() -> Status: PASSED
+Mar 24, 2026 8:55:07 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 8:55:07 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 8:55:07 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testEmptyFirstNameCheckout()
+Mar 24, 2026 8:55:07 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testEmptyFirstNameCheckout()
+Mar 24, 2026 8:55:14 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testEmptyFirstNameCheckout() -> Status: PASSED
+Mar 24, 2026 8:55:14 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 8:55:14 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 8:55:14 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testValidCheckoutStepOne()
+Mar 24, 2026 8:55:14 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testValidCheckoutStepOne()
+Mar 24, 2026 8:55:21 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testValidCheckoutStepOne() -> Status: PASSED
+Mar 24, 2026 8:55:21 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 8:55:21 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 8:55:21 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testBackToProductsNavigation()
+Mar 24, 2026 8:55:21 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testBackToProductsNavigation()
+Mar 24, 2026 8:55:30 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testBackToProductsNavigation() -> Status: PASSED
+Mar 24, 2026 8:55:30 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 8:55:30 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 8:55:30 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCancelCheckoutStepOne()
+Mar 24, 2026 8:55:30 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCancelCheckoutStepOne()
+Mar 24, 2026 8:55:37 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCancelCheckoutStepOne() -> Status: PASSED
+Mar 24, 2026 8:55:37 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:00:50 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:00:50 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testInventoryItemCount()
+Mar 24, 2026 9:00:50 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testInventoryItemCount()
+Mar 24, 2026 9:00:57 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testInventoryItemCount() -> Status: PASSED
+Mar 24, 2026 9:00:57 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:00:58 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:00:58 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testSortZToA()
+Mar 24, 2026 9:00:58 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testSortZToA()
+Mar 24, 2026 9:01:03 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testSortZToA() -> Status: PASSED
+Mar 24, 2026 9:01:03 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:01:03 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:01:03 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testAddToCartUpdatesBadge()
+Mar 24, 2026 9:01:03 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testAddToCartUpdatesBadge()
+Mar 24, 2026 9:01:09 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testAddToCartUpdatesBadge() -> Status: PASSED
+Mar 24, 2026 9:01:09 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:01:09 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:01:09 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testRemoveFromCartClearsBadge()
+Mar 24, 2026 9:01:09 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testRemoveFromCartClearsBadge()
+Mar 24, 2026 9:01:15 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testRemoveFromCartClearsBadge() -> Status: PASSED
+Mar 24, 2026 9:01:15 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:01:15 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:01:15 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testLogoutViaSidebar()
+Mar 24, 2026 9:01:15 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testLogoutViaSidebar()
+Mar 24, 2026 9:01:20 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testLogoutViaSidebar() -> Status: PASSED
+Mar 24, 2026 9:01:20 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:01:32 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:01:32 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testEmptyUsername()
+Mar 24, 2026 9:01:32 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testEmptyUsername()
+Mar 24, 2026 9:01:38 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testEmptyUsername() -> Status: PASSED
+Mar 24, 2026 9:01:38 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:01:38 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:01:38 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testValidLogin()
+Mar 24, 2026 9:01:38 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testValidLogin()
+Mar 24, 2026 9:01:43 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testValidLogin() -> Status: PASSED
+Mar 24, 2026 9:01:43 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:01:43 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:01:43 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testEmptyPassword()
+Mar 24, 2026 9:01:43 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testEmptyPassword()
+Mar 24, 2026 9:01:48 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testEmptyPassword() -> Status: PASSED
+Mar 24, 2026 9:01:48 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:01:48 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:01:48 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testLockedOutUserLogin()
+Mar 24, 2026 9:01:48 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testLockedOutUserLogin()
+Mar 24, 2026 9:01:53 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testLockedOutUserLogin() -> Status: PASSED
+Mar 24, 2026 9:01:53 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:01:53 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:01:53 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testInvalidLogin()
+Mar 24, 2026 9:01:53 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testInvalidLogin()
+Mar 24, 2026 9:01:58 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testInvalidLogin() -> Status: PASSED
+Mar 24, 2026 9:01:58 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:03:23 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:03:23 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testLoginCartCheckoutFlow()
+Mar 24, 2026 9:03:23 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testLoginCartCheckoutFlow()
+Mar 24, 2026 9:03:50 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testLoginCartCheckoutFlow() -> Status: BROKEN
+Mar 24, 2026 9:03:50 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:03:59 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:03:59 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testLoginCartCheckoutFlow()
+Mar 24, 2026 9:03:59 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testLoginCartCheckoutFlow()
+Mar 24, 2026 9:04:27 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testLoginCartCheckoutFlow() -> Status: BROKEN
+Mar 24, 2026 9:04:27 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:05:43 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:05:43 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testLoginCartCheckoutFlow()
+Mar 24, 2026 9:05:43 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testLoginCartCheckoutFlow()
+Mar 24, 2026 9:05:51 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testLoginCartCheckoutFlow() -> Status: PASSED
+Mar 24, 2026 9:05:51 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:06:19 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:06:19 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testLoginCartCheckoutFlow()
+Mar 24, 2026 9:06:19 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testLoginCartCheckoutFlow()
+Mar 24, 2026 9:06:27 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testLoginCartCheckoutFlow() -> Status: PASSED
+Mar 24, 2026 9:06:27 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:15:01 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:15:01 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testEmptyUsername()
+Mar 24, 2026 9:15:01 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testEmptyUsername()
+Mar 24, 2026 9:15:09 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testEmptyUsername() -> Status: PASSED
+Mar 24, 2026 9:15:09 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:15:09 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:15:09 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testValidLogin()
+Mar 24, 2026 9:15:09 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testValidLogin()
+Mar 24, 2026 9:15:14 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testValidLogin() -> Status: PASSED
+Mar 24, 2026 9:15:14 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:15:14 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:15:14 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testEmptyPassword()
+Mar 24, 2026 9:15:14 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testEmptyPassword()
+Mar 24, 2026 9:15:19 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testEmptyPassword() -> Status: PASSED
+Mar 24, 2026 9:15:19 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:15:19 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:15:19 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testLockedOutUserLogin()
+Mar 24, 2026 9:15:19 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testLockedOutUserLogin()
+Mar 24, 2026 9:15:27 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testLockedOutUserLogin() -> Status: PASSED
+Mar 24, 2026 9:15:27 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:15:27 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:15:27 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testInvalidLogin()
+Mar 24, 2026 9:15:27 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testInvalidLogin()
+Mar 24, 2026 9:15:32 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testInvalidLogin() -> Status: PASSED
+Mar 24, 2026 9:15:32 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:15:32 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:15:32 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testLoginCartCheckoutFlow()
+Mar 24, 2026 9:15:32 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testLoginCartCheckoutFlow()
+Mar 24, 2026 9:15:40 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testLoginCartCheckoutFlow() -> Status: PASSED
+Mar 24, 2026 9:15:40 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:15:40 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:15:40 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testInventoryItemCount()
+Mar 24, 2026 9:15:40 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testInventoryItemCount()
+Mar 24, 2026 9:15:45 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testInventoryItemCount() -> Status: PASSED
+Mar 24, 2026 9:15:45 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:15:45 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:15:45 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testSortZToA()
+Mar 24, 2026 9:15:45 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testSortZToA()
+Mar 24, 2026 9:15:50 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testSortZToA() -> Status: PASSED
+Mar 24, 2026 9:15:50 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:15:50 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:15:50 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testAddToCartUpdatesBadge()
+Mar 24, 2026 9:15:50 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testAddToCartUpdatesBadge()
+Mar 24, 2026 9:15:57 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testAddToCartUpdatesBadge() -> Status: PASSED
+Mar 24, 2026 9:15:57 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:15:57 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:15:58 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testRemoveFromCartClearsBadge()
+Mar 24, 2026 9:15:58 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testRemoveFromCartClearsBadge()
+Mar 24, 2026 9:16:04 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testRemoveFromCartClearsBadge() -> Status: PASSED
+Mar 24, 2026 9:16:04 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:16:04 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:16:04 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testLogoutViaSidebar()
+Mar 24, 2026 9:16:04 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testLogoutViaSidebar()
+Mar 24, 2026 9:16:10 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testLogoutViaSidebar() -> Status: PASSED
+Mar 24, 2026 9:16:10 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:16:10 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:16:10 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCartContainsAddedItems()
+Mar 24, 2026 9:16:10 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCartContainsAddedItems()
+Mar 24, 2026 9:16:18 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCartContainsAddedItems() -> Status: PASSED
+Mar 24, 2026 9:16:18 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:16:18 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:16:18 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testRemoveItemFromCart()
+Mar 24, 2026 9:16:18 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testRemoveItemFromCart()
+Mar 24, 2026 9:16:25 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testRemoveItemFromCart() -> Status: PASSED
+Mar 24, 2026 9:16:25 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:16:25 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:16:25 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testContinueShoppingNavigation()
+Mar 24, 2026 9:16:25 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testContinueShoppingNavigation()
+Mar 24, 2026 9:16:33 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testContinueShoppingNavigation() -> Status: PASSED
+Mar 24, 2026 9:16:33 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:16:33 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:16:33 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testFinishCheckoutFlow()
+Mar 24, 2026 9:16:33 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testFinishCheckoutFlow()
+Mar 24, 2026 9:16:41 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testFinishCheckoutFlow() -> Status: PASSED
+Mar 24, 2026 9:16:41 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:16:41 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:16:41 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCheckoutStepTwoSummary()
+Mar 24, 2026 9:16:41 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCheckoutStepTwoSummary()
+Mar 24, 2026 9:16:48 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCheckoutStepTwoSummary() -> Status: PASSED
+Mar 24, 2026 9:16:48 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:16:48 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:16:48 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testEmptyFirstNameCheckout()
+Mar 24, 2026 9:16:48 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testEmptyFirstNameCheckout()
+Mar 24, 2026 9:16:54 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testEmptyFirstNameCheckout() -> Status: PASSED
+Mar 24, 2026 9:16:54 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:16:54 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:16:54 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testValidCheckoutStepOne()
+Mar 24, 2026 9:16:54 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testValidCheckoutStepOne()
+Mar 24, 2026 9:17:00 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testValidCheckoutStepOne() -> Status: PASSED
+Mar 24, 2026 9:17:00 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:17:00 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:17:00 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testBackToProductsNavigation()
+Mar 24, 2026 9:17:00 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testBackToProductsNavigation()
+Mar 24, 2026 9:17:07 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testBackToProductsNavigation() -> Status: PASSED
+Mar 24, 2026 9:17:07 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:17:07 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:17:07 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCancelCheckoutStepOne()
+Mar 24, 2026 9:17:07 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCancelCheckoutStepOne()
+Mar 24, 2026 9:17:16 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCancelCheckoutStepOne() -> Status: PASSED
+Mar 24, 2026 9:17:16 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:18:41 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:18:41 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testEmptyUsername()
+Mar 24, 2026 9:18:41 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testEmptyUsername()
+Mar 24, 2026 9:18:48 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testEmptyUsername() -> Status: PASSED
+Mar 24, 2026 9:18:48 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:18:48 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:18:48 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testValidLogin()
+Mar 24, 2026 9:18:48 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testValidLogin()
+Mar 24, 2026 9:18:53 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testValidLogin() -> Status: PASSED
+Mar 24, 2026 9:18:53 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:18:53 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:18:53 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testEmptyPassword()
+Mar 24, 2026 9:18:53 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testEmptyPassword()
+Mar 24, 2026 9:18:59 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testEmptyPassword() -> Status: PASSED
+Mar 24, 2026 9:18:59 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:18:59 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:18:59 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testLockedOutUserLogin()
+Mar 24, 2026 9:18:59 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testLockedOutUserLogin()
+Mar 24, 2026 9:19:03 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testLockedOutUserLogin() -> Status: PASSED
+Mar 24, 2026 9:19:03 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:19:03 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:19:03 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testInvalidLogin()
+Mar 24, 2026 9:19:03 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testInvalidLogin()
+Mar 24, 2026 9:19:08 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testInvalidLogin() -> Status: PASSED
+Mar 24, 2026 9:19:08 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:19:08 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:19:08 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testLoginCartCheckoutFlow()
+Mar 24, 2026 9:19:08 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testLoginCartCheckoutFlow()
+Mar 24, 2026 9:19:16 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testLoginCartCheckoutFlow() -> Status: PASSED
+Mar 24, 2026 9:19:16 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:19:16 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:19:16 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testInventoryItemCount()
+Mar 24, 2026 9:19:16 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testInventoryItemCount()
+Mar 24, 2026 9:20:17 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testInventoryItemCount() -> Status: BROKEN
+Mar 24, 2026 9:20:17 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:20:17 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:20:17 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testSortZToA()
+Mar 24, 2026 9:20:17 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testSortZToA()
+Mar 24, 2026 9:20:22 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testSortZToA() -> Status: PASSED
+Mar 24, 2026 9:20:22 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:20:22 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:20:22 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testAddToCartUpdatesBadge()
+Mar 24, 2026 9:20:22 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testAddToCartUpdatesBadge()
+Mar 24, 2026 9:20:26 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testAddToCartUpdatesBadge() -> Status: PASSED
+Mar 24, 2026 9:20:26 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:20:26 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:20:26 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testRemoveFromCartClearsBadge()
+Mar 24, 2026 9:20:26 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testRemoveFromCartClearsBadge()
+Mar 24, 2026 9:20:31 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testRemoveFromCartClearsBadge() -> Status: PASSED
+Mar 24, 2026 9:20:31 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:20:31 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:20:31 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testLogoutViaSidebar()
+Mar 24, 2026 9:20:31 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testLogoutViaSidebar()
+Mar 24, 2026 9:20:36 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testLogoutViaSidebar() -> Status: PASSED
+Mar 24, 2026 9:20:36 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:20:36 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:20:36 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCartContainsAddedItems()
+Mar 24, 2026 9:20:36 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCartContainsAddedItems()
+Mar 24, 2026 9:20:43 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCartContainsAddedItems() -> Status: PASSED
+Mar 24, 2026 9:20:43 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:20:43 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:20:43 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testRemoveItemFromCart()
+Mar 24, 2026 9:20:43 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testRemoveItemFromCart()
+Mar 24, 2026 9:20:48 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testRemoveItemFromCart() -> Status: PASSED
+Mar 24, 2026 9:20:48 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:20:48 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:20:48 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testContinueShoppingNavigation()
+Mar 24, 2026 9:20:48 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testContinueShoppingNavigation()
+Mar 24, 2026 9:20:53 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testContinueShoppingNavigation() -> Status: PASSED
+Mar 24, 2026 9:20:53 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:20:53 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:20:53 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testFinishCheckoutFlow()
+Mar 24, 2026 9:20:53 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testFinishCheckoutFlow()
+Mar 24, 2026 9:20:59 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testFinishCheckoutFlow() -> Status: PASSED
+Mar 24, 2026 9:20:59 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:20:59 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:20:59 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCheckoutStepTwoSummary()
+Mar 24, 2026 9:20:59 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCheckoutStepTwoSummary()
+Mar 24, 2026 9:21:07 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCheckoutStepTwoSummary() -> Status: PASSED
+Mar 24, 2026 9:21:07 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:21:07 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:21:07 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testEmptyFirstNameCheckout()
+Mar 24, 2026 9:21:07 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testEmptyFirstNameCheckout()
+Mar 24, 2026 9:21:13 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testEmptyFirstNameCheckout() -> Status: PASSED
+Mar 24, 2026 9:21:13 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:21:13 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:21:13 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testValidCheckoutStepOne()
+Mar 24, 2026 9:21:13 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testValidCheckoutStepOne()
+Mar 24, 2026 9:21:18 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testValidCheckoutStepOne() -> Status: PASSED
+Mar 24, 2026 9:21:18 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:21:18 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:21:18 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testBackToProductsNavigation()
+Mar 24, 2026 9:21:18 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testBackToProductsNavigation()
+Mar 24, 2026 9:21:24 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testBackToProductsNavigation() -> Status: PASSED
+Mar 24, 2026 9:21:24 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:21:24 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:21:24 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCancelCheckoutStepOne()
+Mar 24, 2026 9:21:24 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCancelCheckoutStepOne()
+Mar 24, 2026 9:21:30 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCancelCheckoutStepOne() -> Status: PASSED
+Mar 24, 2026 9:21:30 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:22:35 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:22:35 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testEmptyUsername()
+Mar 24, 2026 9:22:35 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testEmptyUsername()
+Mar 24, 2026 9:22:39 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testEmptyUsername() -> Status: PASSED
+Mar 24, 2026 9:22:39 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:22:39 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:22:39 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testValidLogin()
+Mar 24, 2026 9:22:39 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testValidLogin()
+Mar 24, 2026 9:22:43 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testValidLogin() -> Status: PASSED
+Mar 24, 2026 9:22:43 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:22:43 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:22:43 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testEmptyPassword()
+Mar 24, 2026 9:22:43 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testEmptyPassword()
+Mar 24, 2026 9:22:49 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testEmptyPassword() -> Status: PASSED
+Mar 24, 2026 9:22:49 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:22:49 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:22:49 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testLockedOutUserLogin()
+Mar 24, 2026 9:22:49 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testLockedOutUserLogin()
+Mar 24, 2026 9:22:53 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testLockedOutUserLogin() -> Status: PASSED
+Mar 24, 2026 9:22:53 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:22:53 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:22:53 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testInvalidLogin()
+Mar 24, 2026 9:22:53 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testInvalidLogin()
+Mar 24, 2026 9:22:57 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testInvalidLogin() -> Status: PASSED
+Mar 24, 2026 9:22:57 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:22:57 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:22:57 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testLoginCartCheckoutFlow()
+Mar 24, 2026 9:22:57 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testLoginCartCheckoutFlow()
+Mar 24, 2026 9:23:07 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testLoginCartCheckoutFlow() -> Status: PASSED
+Mar 24, 2026 9:23:07 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:23:07 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:23:07 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testInventoryItemCount()
+Mar 24, 2026 9:23:07 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testInventoryItemCount()
+Mar 24, 2026 9:23:12 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testInventoryItemCount() -> Status: PASSED
+Mar 24, 2026 9:23:12 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:23:12 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:23:12 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testSortZToA()
+Mar 24, 2026 9:23:12 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testSortZToA()
+Mar 24, 2026 9:23:17 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testSortZToA() -> Status: PASSED
+Mar 24, 2026 9:23:17 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:23:17 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:23:17 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testAddToCartUpdatesBadge()
+Mar 24, 2026 9:23:17 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testAddToCartUpdatesBadge()
+Mar 24, 2026 9:23:21 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testAddToCartUpdatesBadge() -> Status: PASSED
+Mar 24, 2026 9:23:21 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:23:21 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:23:21 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testRemoveFromCartClearsBadge()
+Mar 24, 2026 9:23:21 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testRemoveFromCartClearsBadge()
+Mar 24, 2026 9:23:26 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testRemoveFromCartClearsBadge() -> Status: PASSED
+Mar 24, 2026 9:23:26 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:23:26 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:23:26 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testLogoutViaSidebar()
+Mar 24, 2026 9:23:26 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testLogoutViaSidebar()
+Mar 24, 2026 9:23:31 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testLogoutViaSidebar() -> Status: PASSED
+Mar 24, 2026 9:23:31 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:23:31 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:23:31 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCartContainsAddedItems()
+Mar 24, 2026 9:23:31 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCartContainsAddedItems()
+Mar 24, 2026 9:23:38 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCartContainsAddedItems() -> Status: PASSED
+Mar 24, 2026 9:23:38 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:23:38 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:23:38 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testRemoveItemFromCart()
+Mar 24, 2026 9:23:38 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testRemoveItemFromCart()
+Mar 24, 2026 9:23:44 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testRemoveItemFromCart() -> Status: PASSED
+Mar 24, 2026 9:23:44 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:23:44 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:23:44 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testContinueShoppingNavigation()
+Mar 24, 2026 9:23:44 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testContinueShoppingNavigation()
+Mar 24, 2026 9:23:48 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testContinueShoppingNavigation() -> Status: PASSED
+Mar 24, 2026 9:23:48 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:23:48 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:23:48 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testFinishCheckoutFlow()
+Mar 24, 2026 9:23:48 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testFinishCheckoutFlow()
+Mar 24, 2026 9:23:54 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testFinishCheckoutFlow() -> Status: PASSED
+Mar 24, 2026 9:23:54 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:23:54 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:23:54 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCheckoutStepTwoSummary()
+Mar 24, 2026 9:23:54 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCheckoutStepTwoSummary()
+Mar 24, 2026 9:24:00 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCheckoutStepTwoSummary() -> Status: PASSED
+Mar 24, 2026 9:24:00 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:24:00 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:24:00 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testEmptyFirstNameCheckout()
+Mar 24, 2026 9:24:00 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testEmptyFirstNameCheckout()
+Mar 24, 2026 9:24:07 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testEmptyFirstNameCheckout() -> Status: PASSED
+Mar 24, 2026 9:24:07 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:24:07 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:24:07 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testValidCheckoutStepOne()
+Mar 24, 2026 9:24:07 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testValidCheckoutStepOne()
+Mar 24, 2026 9:24:13 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testValidCheckoutStepOne() -> Status: PASSED
+Mar 24, 2026 9:24:13 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:24:13 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:24:13 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testBackToProductsNavigation()
+Mar 24, 2026 9:24:13 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testBackToProductsNavigation()
+Mar 24, 2026 9:24:20 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testBackToProductsNavigation() -> Status: PASSED
+Mar 24, 2026 9:24:20 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:24:20 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:24:20 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCancelCheckoutStepOne()
+Mar 24, 2026 9:24:20 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCancelCheckoutStepOne()
+Mar 24, 2026 9:24:26 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCancelCheckoutStepOne() -> Status: PASSED
+Mar 24, 2026 9:24:26 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:40:33 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:40:33 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testValidLogin()
+Mar 24, 2026 9:40:33 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testValidLogin()
+Mar 24, 2026 9:40:44 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testValidLogin() -> Status: PASSED
+Mar 24, 2026 9:40:44 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:40:44 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:40:44 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testInvalidLoginScenarios(String, String, String) [1] invalid_user, wrong_password, Username and password do not match any user in this service
+Mar 24, 2026 9:40:44 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testInvalidLoginScenarios(String, String, String) [1] invalid_user, wrong_password, Username and password do not match any user in this service
+Mar 24, 2026 9:40:49 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testInvalidLoginScenarios(String, String, String) [1] invalid_user, wrong_password, Username and password do not match any user in this service -> Status: PASSED
+Mar 24, 2026 9:40:49 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:40:49 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:40:49 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testInvalidLoginScenarios(String, String, String) [2] locked_out_user, secret_sauce, Sorry, this user has been locked out.
+Mar 24, 2026 9:40:49 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testInvalidLoginScenarios(String, String, String) [2] locked_out_user, secret_sauce, Sorry, this user has been locked out.
+Mar 24, 2026 9:40:54 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testInvalidLoginScenarios(String, String, String) [2] locked_out_user, secret_sauce, Sorry, this user has been locked out. -> Status: PASSED
+Mar 24, 2026 9:40:54 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:40:54 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:40:54 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testInvalidLoginScenarios(String, String, String) [3] standard_user, , Password is required
+Mar 24, 2026 9:40:54 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testInvalidLoginScenarios(String, String, String) [3] standard_user, , Password is required
+Mar 24, 2026 9:40:58 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testInvalidLoginScenarios(String, String, String) [3] standard_user, , Password is required -> Status: PASSED
+Mar 24, 2026 9:40:58 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:40:58 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:40:58 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testInvalidLoginScenarios(String, String, String) [4] , secret_sauce, Username is required
+Mar 24, 2026 9:40:58 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testInvalidLoginScenarios(String, String, String) [4] , secret_sauce, Username is required
+Mar 24, 2026 9:41:03 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testInvalidLoginScenarios(String, String, String) [4] , secret_sauce, Username is required -> Status: PASSED
+Mar 24, 2026 9:41:03 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:41:03 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:41:03 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testLockedOutUserLogin()
+Mar 24, 2026 9:41:03 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testLockedOutUserLogin()
+Mar 24, 2026 9:41:07 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testLockedOutUserLogin() -> Status: PASSED
+Mar 24, 2026 9:41:07 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:41:07 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:41:07 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testLoginCartCheckoutFlow()
+Mar 24, 2026 9:41:07 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testLoginCartCheckoutFlow()
+Mar 24, 2026 9:41:14 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testLoginCartCheckoutFlow() -> Status: PASSED
+Mar 24, 2026 9:41:14 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:41:14 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:41:14 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testInventoryItemCount()
+Mar 24, 2026 9:41:14 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testInventoryItemCount()
+Mar 24, 2026 9:41:19 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testInventoryItemCount() -> Status: PASSED
+Mar 24, 2026 9:41:19 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:41:19 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:41:19 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testSortZToA()
+Mar 24, 2026 9:41:19 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testSortZToA()
+Mar 24, 2026 9:41:24 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testSortZToA() -> Status: PASSED
+Mar 24, 2026 9:41:24 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:41:24 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:41:24 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testAddToCartUpdatesBadge()
+Mar 24, 2026 9:41:24 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testAddToCartUpdatesBadge()
+Mar 24, 2026 9:41:28 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testAddToCartUpdatesBadge() -> Status: PASSED
+Mar 24, 2026 9:41:28 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:41:28 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:41:28 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testRemoveFromCartClearsBadge()
+Mar 24, 2026 9:41:28 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testRemoveFromCartClearsBadge()
+Mar 24, 2026 9:41:33 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testRemoveFromCartClearsBadge() -> Status: PASSED
+Mar 24, 2026 9:41:33 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:41:33 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:41:33 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testLogoutViaSidebar()
+Mar 24, 2026 9:41:33 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testLogoutViaSidebar()
+Mar 24, 2026 9:41:39 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testLogoutViaSidebar() -> Status: PASSED
+Mar 24, 2026 9:41:39 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:41:39 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:41:39 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCartContainsAddedItems()
+Mar 24, 2026 9:41:39 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCartContainsAddedItems()
+Mar 24, 2026 9:41:44 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCartContainsAddedItems() -> Status: PASSED
+Mar 24, 2026 9:41:44 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:41:44 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:41:44 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testRemoveItemFromCart()
+Mar 24, 2026 9:41:44 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testRemoveItemFromCart()
+Mar 24, 2026 9:41:50 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testRemoveItemFromCart() -> Status: PASSED
+Mar 24, 2026 9:41:50 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:41:50 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:41:50 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testContinueShoppingNavigation()
+Mar 24, 2026 9:41:50 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testContinueShoppingNavigation()
+Mar 24, 2026 9:41:56 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testContinueShoppingNavigation() -> Status: PASSED
+Mar 24, 2026 9:41:56 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:41:56 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:41:56 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testFinishCheckoutFlow()
+Mar 24, 2026 9:41:56 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testFinishCheckoutFlow()
+Mar 24, 2026 9:42:03 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testFinishCheckoutFlow() -> Status: PASSED
+Mar 24, 2026 9:42:03 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:42:03 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:42:03 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCheckoutStepTwoSummary()
+Mar 24, 2026 9:42:03 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCheckoutStepTwoSummary()
+Mar 24, 2026 9:42:10 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCheckoutStepTwoSummary() -> Status: PASSED
+Mar 24, 2026 9:42:10 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:42:10 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:42:10 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testValidCheckoutStepOne()
+Mar 24, 2026 9:42:10 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testValidCheckoutStepOne()
+Mar 24, 2026 9:42:16 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testValidCheckoutStepOne() -> Status: PASSED
+Mar 24, 2026 9:42:16 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:42:16 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:42:16 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testBackToProductsNavigation()
+Mar 24, 2026 9:42:16 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testBackToProductsNavigation()
+Mar 24, 2026 9:42:23 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testBackToProductsNavigation() -> Status: PASSED
+Mar 24, 2026 9:42:23 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:42:23 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:42:23 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCheckoutInformationValidation(String, String, String, String) [1] , Ocean, 12345, First Name is required
+Mar 24, 2026 9:42:23 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCheckoutInformationValidation(String, String, String, String) [1] , Ocean, 12345, First Name is required
+Mar 24, 2026 9:42:29 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCheckoutInformationValidation(String, String, String, String) [1] , Ocean, 12345, First Name is required -> Status: PASSED
+Mar 24, 2026 9:42:29 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:42:29 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:42:29 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCheckoutInformationValidation(String, String, String, String) [2] Frank, , 12345, Last Name is required
+Mar 24, 2026 9:42:29 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCheckoutInformationValidation(String, String, String, String) [2] Frank, , 12345, Last Name is required
+Mar 24, 2026 9:42:36 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCheckoutInformationValidation(String, String, String, String) [2] Frank, , 12345, Last Name is required -> Status: PASSED
+Mar 24, 2026 9:42:36 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:42:36 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:42:36 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCheckoutInformationValidation(String, String, String, String) [3] Frank, Ocean, , Postal Code is required
+Mar 24, 2026 9:42:36 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCheckoutInformationValidation(String, String, String, String) [3] Frank, Ocean, , Postal Code is required
+Mar 24, 2026 9:42:41 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCheckoutInformationValidation(String, String, String, String) [3] Frank, Ocean, , Postal Code is required -> Status: PASSED
+Mar 24, 2026 9:42:41 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+
+Mar 24, 2026 9:42:41 AM utils.AllureLogListener beforeTestSchedule
+INFO: ---------------------------------------------------
+Mar 24, 2026 9:42:41 AM utils.AllureLogListener beforeTestSchedule
+INFO: TEST SCHEDULED: testCancelCheckoutStepOne()
+Mar 24, 2026 9:42:41 AM utils.AllureLogListener beforeTestStart
+INFO: TEST STARTED: testCancelCheckoutStepOne()
+Mar 24, 2026 9:42:47 AM utils.AllureLogListener afterTestStop
+INFO: TEST FINISHED: testCancelCheckoutStepOne() -> Status: PASSED
+Mar 24, 2026 9:42:47 AM utils.AllureLogListener afterTestStop
+INFO: ---------------------------------------------------
+

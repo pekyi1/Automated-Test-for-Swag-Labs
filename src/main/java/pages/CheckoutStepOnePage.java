@@ -25,10 +25,10 @@ public class CheckoutStepOnePage {
     @FindBy(id = "cancel")
     private WebElement cancelButton;
 
-    @FindBy(css = "[data-test='error']")
+    @FindBy(css = ".error-message-container.error")
     private WebElement errorMessage;
 
-    public CheckoutStepOnePage(WebDriver driver) {
+    public CheckoutStepOnePage(WebDriver driver) { 
         this.driver = driver;
         this.waits = new WaitUtils(driver);
         PageFactory.initElements(driver, this);
